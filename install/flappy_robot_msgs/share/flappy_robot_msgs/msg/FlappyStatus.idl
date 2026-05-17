@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from flappy_robot_msgs/msg/FlappyStatus.msg
+// generated code does not contain a copyright notice
+
+
+module flappy_robot_msgs {
+  module msg {
+    struct FlappyStatus {
+      float vertical_velocity;
+
+      float horizontal_speed;
+
+      int32 score;
+
+      sequence<float> pipe_positions;
+
+      string game_over_reason;
+    };
+  };
+};

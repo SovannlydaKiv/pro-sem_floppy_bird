@@ -1,0 +1,23 @@
+[0.825s] Invoking command in '/home/chiv/ros2_ws/src/flappy_robot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chiv/ros2_ws/build/flappy_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chiv/ros2_ws/install/flappy_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/flappy_robot build --build-base /home/chiv/ros2_ws/build/flappy_robot/build install --record /home/chiv/ros2_ws/build/flappy_robot/install.log --single-version-externally-managed install_data
+[1.042s] running egg_info
+[1.051s] writing ../../build/flappy_robot/flappy_robot.egg-info/PKG-INFO
+[1.052s] writing dependency_links to ../../build/flappy_robot/flappy_robot.egg-info/dependency_links.txt
+[1.052s] writing entry points to ../../build/flappy_robot/flappy_robot.egg-info/entry_points.txt
+[1.052s] writing requirements to ../../build/flappy_robot/flappy_robot.egg-info/requires.txt
+[1.052s] writing top-level names to ../../build/flappy_robot/flappy_robot.egg-info/top_level.txt
+[1.071s] reading manifest file '../../build/flappy_robot/flappy_robot.egg-info/SOURCES.txt'
+[1.071s] writing manifest file '../../build/flappy_robot/flappy_robot.egg-info/SOURCES.txt'
+[1.072s] running build
+[1.072s] running build_py
+[1.072s] running install
+[1.076s] running install_lib
+[1.087s] running install_data
+[1.087s] running install_egg_info
+[1.097s] removing '/home/chiv/ros2_ws/install/flappy_robot/lib/python3.12/site-packages/flappy_robot-0.0.1-py3.12.egg-info' (and everything under it)
+[1.097s] Copying ../../build/flappy_robot/flappy_robot.egg-info to /home/chiv/ros2_ws/install/flappy_robot/lib/python3.12/site-packages/flappy_robot-0.0.1-py3.12.egg-info
+[1.097s] running install_scripts
+[1.174s] Installing game_logic script to /home/chiv/ros2_ws/install/flappy_robot/lib/flappy_robot
+[1.174s] Installing keyboard_controller script to /home/chiv/ros2_ws/install/flappy_robot/lib/flappy_robot
+[1.174s] Installing visualization script to /home/chiv/ros2_ws/install/flappy_robot/lib/flappy_robot
+[1.174s] writing list of installed files to '/home/chiv/ros2_ws/build/flappy_robot/install.log'
+[1.191s] Invoked command in '/home/chiv/ros2_ws/src/flappy_robot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chiv/ros2_ws/build/flappy_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chiv/ros2_ws/install/flappy_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/flappy_robot build --build-base /home/chiv/ros2_ws/build/flappy_robot/build install --record /home/chiv/ros2_ws/build/flappy_robot/install.log --single-version-externally-managed install_data

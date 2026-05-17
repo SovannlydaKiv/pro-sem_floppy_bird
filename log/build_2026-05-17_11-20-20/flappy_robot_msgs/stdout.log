@@ -1,0 +1,232 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (3.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/chiv/ros2_ws/build/flappy_robot_msgs
+[  2%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[  5%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  5%] Built target flappy_robot_msgs__rs
+[  5%] Built target ament_cmake_python_copy_flappy_robot_msgs
+[  5%] Built target flappy_robot_msgs__rosidl_generator_type_description
+[  8%] [34m[1mGenerating C code for ROS interfaces[0m
+running egg_info
+creating flappy_robot_msgs.egg-info
+writing flappy_robot_msgs.egg-info/PKG-INFO
+writing dependency_links to flappy_robot_msgs.egg-info/dependency_links.txt
+writing top-level names to flappy_robot_msgs.egg-info/top_level.txt
+writing manifest file 'flappy_robot_msgs.egg-info/SOURCES.txt'
+reading manifest file 'flappy_robot_msgs.egg-info/SOURCES.txt'
+writing manifest file 'flappy_robot_msgs.egg-info/SOURCES.txt'
+[  8%] Built target ament_cmake_python_build_flappy_robot_msgs_egg
+[ 11%] [32mBuilding C object CMakeFiles/flappy_robot_msgs__rosidl_generator_c.dir/rosidl_generator_c/flappy_robot_msgs/msg/detail/flappy_status__description.c.o[0m
+[ 14%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[ 17%] [32mBuilding C object CMakeFiles/flappy_robot_msgs__rosidl_generator_c.dir/rosidl_generator_c/flappy_robot_msgs/msg/detail/flappy_status__functions.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/flappy_robot_msgs__rosidl_generator_c.dir/rosidl_generator_c/flappy_robot_msgs/msg/detail/flappy_status__type_support.c.o[0m
+[ 22%] [32m[1mLinking C shared library libflappy_robot_msgs__rosidl_generator_c.so[0m
+[ 22%] Built target flappy_robot_msgs__rosidl_generator_c
+[ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 25%] Built target flappy_robot_msgs__cpp
+[ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 31%] [32mBuilding C object CMakeFiles/flappy_robot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/flappy_robot_msgs/msg/detail/flappy_status__type_support.c.o[0m
+[ 34%] [32m[1mLinking C shared library libflappy_robot_msgs__rosidl_typesupport_introspection_c.so[0m
+[ 34%] Built target flappy_robot_msgs__rosidl_typesupport_introspection_c
+[ 37%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/flappy_robot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/flappy_robot_msgs/msg/detail/flappy_status__type_support_c.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/flappy_robot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/flappy_robot_msgs/msg/detail/dds_fastrtps/flappy_status__type_support.cpp.o[0m
+[ 45%] [32m[1mLinking CXX shared library libflappy_robot_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[ 45%] Built target flappy_robot_msgs__rosidl_typesupport_fastrtps_c
+[ 48%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 51%] [32m[1mLinking CXX shared library libflappy_robot_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 51%] Built target flappy_robot_msgs__rosidl_typesupport_fastrtps_cpp
+[ 54%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/flappy_robot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/flappy_robot_msgs/msg/detail/flappy_status__type_support.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/flappy_robot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flappy_robot_msgs/msg/flappy_status__type_support.cpp.o[0m
+[ 62%] [32m[1mLinking CXX shared library libflappy_robot_msgs__rosidl_typesupport_cpp.so[0m
+[ 62%] Built target flappy_robot_msgs__rosidl_typesupport_cpp
+[ 65%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 68%] [32m[1mLinking CXX shared library libflappy_robot_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/flappy_robot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/flappy_robot_msgs/msg/flappy_status__type_support.cpp.o[0m
+[ 71%] Built target flappy_robot_msgs__rosidl_typesupport_introspection_cpp
+[ 74%] [32m[1mLinking CXX shared library libflappy_robot_msgs__rosidl_typesupport_c.so[0m
+[ 74%] Built target flappy_robot_msgs__rosidl_typesupport_c
+[ 74%] Built target flappy_robot_msgs
+[ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 77%] Built target flappy_robot_msgs__py
+[ 80%] [32mBuilding C object CMakeFiles/flappy_robot_msgs__rosidl_generator_py.dir/rosidl_generator_py/flappy_robot_msgs/msg/_flappy_status_s.c.o[0m
+[ 82%] [32m[1mLinking C shared library libflappy_robot_msgs__rosidl_generator_py.so[0m
+[ 82%] Built target flappy_robot_msgs__rosidl_generator_py
+[ 85%] [32mBuilding C object CMakeFiles/flappy_robot_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/flappy_robot_msgs/_flappy_robot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/flappy_robot_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/flappy_robot_msgs/_flappy_robot_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 91%] [32m[1mLinking C shared module rosidl_generator_py/flappy_robot_msgs/flappy_robot_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[ 94%] [32m[1mLinking C shared module rosidl_generator_py/flappy_robot_msgs/flappy_robot_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[ 94%] Built target flappy_robot_msgs_s__rosidl_typesupport_fastrtps_c
+[ 97%] [32mBuilding C object CMakeFiles/flappy_robot_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/flappy_robot_msgs/_flappy_robot_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[ 97%] Built target flappy_robot_msgs_s__rosidl_typesupport_introspection_c
+[100%] [32m[1mLinking C shared module rosidl_generator_py/flappy_robot_msgs/flappy_robot_msgs_s__rosidl_typesupport_c.so[0m
+[100%] Built target flappy_robot_msgs_s__rosidl_typesupport_c
+-- Install configuration: ""
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/ament_index/resource_index/rosidl_interfaces/flappy_robot_msgs
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/msg/FlappyStatus.json
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail/flappy_status__type_support.c
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail/flappy_status__type_support.h
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail/flappy_status__description.c
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail/flappy_status__functions.h
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail/flappy_status__functions.c
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail/flappy_status__struct.h
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/flappy_status.h
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/environment/library_path.sh
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/environment/library_path.dsv
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/libflappy_robot_msgs__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/home/chiv/ros2_ws/install/flappy_robot_msgs/lib/libflappy_robot_msgs__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs
+-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg
+-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail/flappy_status__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/libflappy_robot_msgs__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/chiv/ros2_ws/install/flappy_robot_msgs/lib/libflappy_robot_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs
+-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg
+-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail
+-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail/flappy_status__type_support.c
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail/flappy_status__rosidl_typesupport_introspection_c.h
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/libflappy_robot_msgs__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/chiv/ros2_ws/install/flappy_robot_msgs/lib/libflappy_robot_msgs__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/libflappy_robot_msgs__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/chiv/ros2_ws/install/flappy_robot_msgs/lib/libflappy_robot_msgs__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs
+-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg
+-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail/flappy_status__type_support.hpp
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail/flappy_status__builder.hpp
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail/flappy_status__struct.hpp
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail/flappy_status__traits.hpp
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/flappy_status.hpp
+-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs
+-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg
+-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail/flappy_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail/dds_fastrtps
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/libflappy_robot_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/chiv/ros2_ws/install/flappy_robot_msgs/lib/libflappy_robot_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs
+-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg
+-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail/flappy_status__type_support.cpp
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail/flappy_status__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/libflappy_robot_msgs__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/chiv/ros2_ws/install/flappy_robot_msgs/lib/libflappy_robot_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/libflappy_robot_msgs__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/chiv/ros2_ws/install/flappy_robot_msgs/lib/libflappy_robot_msgs__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/environment/pythonpath.sh
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/environment/pythonpath.dsv
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs-0.0.1-py3.12.egg-info
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs-0.0.1-py3.12.egg-info/PKG-INFO
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs-0.0.1-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs-0.0.1-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs-0.0.1-py3.12.egg-info/top_level.txt
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/__init__.py
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/flappy_robot_msgs_s__rosidl_typesupport_c.so
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/_flappy_robot_msgs_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/flappy_robot_msgs_s__rosidl_typesupport_introspection_c.so
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/msg
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/msg/__init__.py
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/msg/_flappy_status_s.c
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/msg/_flappy_status.py
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/_flappy_robot_msgs_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/_flappy_robot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/flappy_robot_msgs_s__rosidl_typesupport_fastrtps_c.so
+Listing '/home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs'...
+Compiling '/home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/__init__.py'...
+Listing '/home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/msg'...
+Compiling '/home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/msg/__init__.py'...
+Compiling '/home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/msg/_flappy_status.py'...
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/flappy_robot_msgs_s__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/flappy_robot_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/flappy_robot_msgs_s__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/flappy_robot_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/flappy_robot_msgs_s__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/flappy_robot_msgs_s__rosidl_typesupport_c.so" to ""
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/libflappy_robot_msgs__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/home/chiv/ros2_ws/install/flappy_robot_msgs/lib/libflappy_robot_msgs__rosidl_generator_py.so" to ""
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/ament_index/resource_index/rust_packages/flappy_robot_msgs
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/rust
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/rust/Cargo.toml
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/rust/src
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/rust/src/msg.rs
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/rust/src/lib.rs
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/rust/src/msg
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/rust/src/msg/rmw.rs
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/rust/build.rs
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/msg/FlappyStatus.idl
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/msg/FlappyStatus.msg
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/ament_index/resource_index/package_run_dependencies/flappy_robot_msgs
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/ament_index/resource_index/parent_prefix_path/flappy_robot_msgs
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/environment/ament_prefix_path.sh
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/environment/ament_prefix_path.dsv
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/environment/path.sh
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/environment/path.dsv
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/local_setup.bash
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/local_setup.sh
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/local_setup.zsh
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/local_setup.dsv
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/package.dsv
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/ament_index/resource_index/packages/flappy_robot_msgs
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/export_flappy_robot_msgs__rosidl_generator_cExport.cmake
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/export_flappy_robot_msgs__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/export_flappy_robot_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/export_flappy_robot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/flappy_robot_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/flappy_robot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/flappy_robot_msgs__rosidl_typesupport_cExport.cmake
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/flappy_robot_msgs__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/export_flappy_robot_msgs__rosidl_generator_cppExport.cmake
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/export_flappy_robot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/export_flappy_robot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/flappy_robot_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/flappy_robot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/flappy_robot_msgs__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/flappy_robot_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/export_flappy_robot_msgs__rosidl_generator_pyExport.cmake
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/export_flappy_robot_msgs__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/flappy_robot_msgsConfig.cmake
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/flappy_robot_msgsConfig-version.cmake
+-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/package.xml
