@@ -6,7 +6,6 @@
 #include "rosidl_runtime_c/message_type_support_struct.h"
 #include "flappy_robot_msgs/msg/detail/flappy_status__struct.h"
 #include "flappy_robot_msgs/msg/detail/flappy_status__type_support.h"
-#include "flappy_robot_msgs/msg/detail/flappy_status__functions.h"
 #include "rosidl_typesupport_c/identifier.h"
 #include "rosidl_typesupport_c/message_type_support_dispatch.h"
 #include "rosidl_typesupport_c/type_support_map.h"
@@ -73,9 +72,6 @@ static const rosidl_message_type_support_t FlappyStatus_message_type_support_han
   rosidl_typesupport_c__typesupport_identifier,
   reinterpret_cast<const type_support_map_t *>(&_FlappyStatus_message_typesupport_map),
   rosidl_typesupport_c__get_message_typesupport_handle_function,
-  &flappy_robot_msgs__msg__FlappyStatus__get_type_hash,
-  &flappy_robot_msgs__msg__FlappyStatus__get_type_description,
-  &flappy_robot_msgs__msg__FlappyStatus__get_type_description_sources,
 };
 
 }  // namespace rosidl_typesupport_c

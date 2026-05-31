@@ -2,9 +2,6 @@
 // with input from flappy_robot_msgs:msg/FlappyStatus.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "flappy_robot_msgs/msg/flappy_status.h"
-
-
 #ifndef FLAPPY_ROBOT_MSGS__MSG__DETAIL__FLAPPY_STATUS__FUNCTIONS_H_
 #define FLAPPY_ROBOT_MSGS__MSG__DETAIL__FLAPPY_STATUS__FUNCTIONS_H_
 
@@ -16,12 +13,6 @@ extern "C"
 #include <stdbool.h>
 #include <stdlib.h>
 
-#include "rosidl_runtime_c/action_type_support_struct.h"
-#include "rosidl_runtime_c/message_type_support_struct.h"
-#include "rosidl_runtime_c/service_type_support_struct.h"
-#include "rosidl_runtime_c/type_description/type_description__struct.h"
-#include "rosidl_runtime_c/type_description/type_source__struct.h"
-#include "rosidl_runtime_c/type_hash.h"
 #include "rosidl_runtime_c/visibility_control.h"
 #include "flappy_robot_msgs/msg/rosidl_generator_c__visibility_control.h"
 
@@ -62,7 +53,7 @@ flappy_robot_msgs__msg__FlappyStatus__fini(flappy_robot_msgs__msg__FlappyStatus 
  */
 ROSIDL_GENERATOR_C_PUBLIC_flappy_robot_msgs
 flappy_robot_msgs__msg__FlappyStatus *
-flappy_robot_msgs__msg__FlappyStatus__create(void);
+flappy_robot_msgs__msg__FlappyStatus__create();
 
 /// Destroy msg/FlappyStatus message.
 /**
@@ -101,30 +92,6 @@ bool
 flappy_robot_msgs__msg__FlappyStatus__copy(
   const flappy_robot_msgs__msg__FlappyStatus * input,
   flappy_robot_msgs__msg__FlappyStatus * output);
-
-/// Retrieve pointer to the hash of the description of this type.
-ROSIDL_GENERATOR_C_PUBLIC_flappy_robot_msgs
-const rosidl_type_hash_t *
-flappy_robot_msgs__msg__FlappyStatus__get_type_hash(
-  const rosidl_message_type_support_t * type_support);
-
-/// Retrieve pointer to the description of this type.
-ROSIDL_GENERATOR_C_PUBLIC_flappy_robot_msgs
-const rosidl_runtime_c__type_description__TypeDescription *
-flappy_robot_msgs__msg__FlappyStatus__get_type_description(
-  const rosidl_message_type_support_t * type_support);
-
-/// Retrieve pointer to the single raw source text that defined this type.
-ROSIDL_GENERATOR_C_PUBLIC_flappy_robot_msgs
-const rosidl_runtime_c__type_description__TypeSource *
-flappy_robot_msgs__msg__FlappyStatus__get_individual_type_description_source(
-  const rosidl_message_type_support_t * type_support);
-
-/// Retrieve pointer to the recursive raw sources that defined the description of this type.
-ROSIDL_GENERATOR_C_PUBLIC_flappy_robot_msgs
-const rosidl_runtime_c__type_description__TypeSource__Sequence *
-flappy_robot_msgs__msg__FlappyStatus__get_type_description_sources(
-  const rosidl_message_type_support_t * type_support);
 
 /// Initialize array of msg/FlappyStatus messages.
 /**

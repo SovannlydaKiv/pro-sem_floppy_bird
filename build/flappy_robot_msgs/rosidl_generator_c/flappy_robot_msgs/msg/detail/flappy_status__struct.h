@@ -2,9 +2,6 @@
 // with input from flappy_robot_msgs:msg/FlappyStatus.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "flappy_robot_msgs/msg/flappy_status.h"
-
-
 #ifndef FLAPPY_ROBOT_MSGS__MSG__DETAIL__FLAPPY_STATUS__STRUCT_H_
 #define FLAPPY_ROBOT_MSGS__MSG__DETAIL__FLAPPY_STATUS__STRUCT_H_
 
@@ -16,6 +13,7 @@ extern "C"
 #include <stdbool.h>
 #include <stddef.h>
 #include <stdint.h>
+
 
 // Constants defined in the message
 

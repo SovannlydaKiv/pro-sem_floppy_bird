@@ -2,9 +2,6 @@
 // with input from flappy_robot_msgs:msg/FlappyStatus.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "flappy_robot_msgs/msg/flappy_status.hpp"
-
-
 #ifndef FLAPPY_ROBOT_MSGS__MSG__DETAIL__FLAPPY_STATUS__STRUCT_HPP_
 #define FLAPPY_ROBOT_MSGS__MSG__DETAIL__FLAPPY_STATUS__STRUCT_HPP_
 

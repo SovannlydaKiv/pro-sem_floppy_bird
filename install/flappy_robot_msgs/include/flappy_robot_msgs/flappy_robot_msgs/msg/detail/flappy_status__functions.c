@@ -117,7 +117,7 @@ flappy_robot_msgs__msg__FlappyStatus__copy(
 }
 
 flappy_robot_msgs__msg__FlappyStatus *
-flappy_robot_msgs__msg__FlappyStatus__create(void)
+flappy_robot_msgs__msg__FlappyStatus__create()
 {
   rcutils_allocator_t allocator = rcutils_get_default_allocator();
   flappy_robot_msgs__msg__FlappyStatus * msg = (flappy_robot_msgs__msg__FlappyStatus *)allocator.allocate(sizeof(flappy_robot_msgs__msg__FlappyStatus), allocator.state);

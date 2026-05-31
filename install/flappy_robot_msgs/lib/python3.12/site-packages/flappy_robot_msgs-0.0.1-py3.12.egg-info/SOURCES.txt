@@ -4,3 +4,5 @@ flappy_robot_msgs.egg-info/PKG-INFO
 flappy_robot_msgs.egg-info/SOURCES.txt
 flappy_robot_msgs.egg-info/dependency_links.txt
 flappy_robot_msgs.egg-info/top_level.txt
+flappy_robot_msgs/msg/__init__.py
+flappy_robot_msgs/msg/_flappy_status.py

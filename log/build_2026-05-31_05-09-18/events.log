@@ -1,0 +1,355 @@
+[0.000000] (-) TimerEvent: {}
+[0.000226] (flappy_robot_msgs) JobQueued: {'identifier': 'flappy_robot_msgs', 'dependencies': OrderedDict()}
+[0.000263] (flappy_robot) JobQueued: {'identifier': 'flappy_robot', 'dependencies': OrderedDict([('flappy_robot_msgs', '/home/chiv/ros2_ws/install/flappy_robot_msgs')])}
+[0.000907] (flappy_robot_msgs) JobStarted: {'identifier': 'flappy_robot_msgs'}
+[0.020895] (flappy_robot_msgs) JobProgress: {'identifier': 'flappy_robot_msgs', 'progress': 'cmake'}
+[0.024367] (flappy_robot_msgs) JobProgress: {'identifier': 'flappy_robot_msgs', 'progress': 'build'}
+[0.025405] (flappy_robot_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/chiv/ros2_ws/build/flappy_robot_msgs', '--', '-j2', '-l2'], 'cwd': '/home/chiv/ros2_ws/build/flappy_robot_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'chiv'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chiv'), ('CYCLONEDDS_URI', '/home/chiv/.ros/cyclonedds.xml'), ('OLDPWD', '/home/chiv'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1456'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chiv'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chiv'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/chiv-virtual-machine:@/tmp/.ICE-unix/1435,unix/chiv-virtual-machine:/tmp/.ICE-unix/1435'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5475c17f_b32d_4b35_83f8_a99338aaed51'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VNT6P3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.145'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '18'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chiv/ros2_ws/build/flappy_robot_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099676] (-) TimerEvent: {}
+[0.200086] (-) TimerEvent: {}
+[0.300105] (flappy_robot_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.300492] (-) TimerEvent: {}
+[0.401929] (-) TimerEvent: {}
+[0.438009] (flappy_robot_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.457400] (flappy_robot_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.502102] (-) TimerEvent: {}
+[0.568844] (flappy_robot_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.576461] (flappy_robot_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.577313] (flappy_robot_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.577938] (flappy_robot_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.581919] (flappy_robot_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.603480] (-) TimerEvent: {}
+[0.697180] (flappy_robot_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.704302] (flappy_robot_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.704453] (-) TimerEvent: {}
+[0.704689] (flappy_robot_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.705134] (flappy_robot_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.713918] (flappy_robot_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.798363] (flappy_robot_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.804650] (-) TimerEvent: {}
+[0.905232] (-) TimerEvent: {}
+[0.930844] (flappy_robot_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.936631] (flappy_robot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.945099] (flappy_robot_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.005457] (-) TimerEvent: {}
+[1.009303] (flappy_robot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.105629] (-) TimerEvent: {}
+[1.206651] (-) TimerEvent: {}
+[1.307296] (-) TimerEvent: {}
+[1.364492] (flappy_robot_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.411174] (-) TimerEvent: {}
+[1.512067] (-) TimerEvent: {}
+[1.600654] (flappy_robot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.612144] (-) TimerEvent: {}
+[1.715477] (-) TimerEvent: {}
+[1.789551] (flappy_robot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.807541] (flappy_robot_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.807871] (flappy_robot_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.816514] (-) TimerEvent: {}
+[1.829400] (flappy_robot_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.829668] (flappy_robot_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.829760] (flappy_robot_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.829838] (flappy_robot_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.845313] (flappy_robot_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.916630] (-) TimerEvent: {}
+[1.918021] (flappy_robot_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.952468] (flappy_robot_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.962937] (flappy_robot_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/chiv/ros2_ws/build/flappy_robot_msgs\n'}
+[2.000040] (flappy_robot_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[2.002182] (flappy_robot_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.017706] (-) TimerEvent: {}
+[2.118059] (-) TimerEvent: {}
+[2.186378] (flappy_robot_msgs) StdoutLine: {'line': b'[  6%] Built target flappy_robot_msgs__cpp\n'}
+[2.202487] (flappy_robot_msgs) StdoutLine: {'line': b'[  6%] Built target flappy_robot_msgs__rs\n'}
+[2.202638] (flappy_robot_msgs) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.212488] (flappy_robot_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.218154] (-) TimerEvent: {}
+[2.322603] (-) TimerEvent: {}
+[2.365536] (flappy_robot_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flappy_robot_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.384530] (flappy_robot_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/flappy_robot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/flappy_robot_msgs/msg/detail/dds_fastrtps/flappy_status__type_support.cpp.o\x1b[0m\n'}
+[2.400986] (flappy_robot_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flappy_robot_msgs__rosidl_generator_c\x1b[0m\n'}
+[2.414029] (flappy_robot_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/flappy_robot_msgs__rosidl_generator_c.dir/rosidl_generator_c/flappy_robot_msgs/msg/detail/flappy_status__functions.c.o\x1b[0m\n'}
+[2.424525] (-) TimerEvent: {}
+[2.476171] (flappy_robot_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32m\x1b[1mLinking C shared library libflappy_robot_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[2.512849] (flappy_robot_msgs) StdoutLine: {'line': b'[ 21%] Built target flappy_robot_msgs__rosidl_generator_c\n'}
+[2.524562] (-) TimerEvent: {}
+[2.574207] (flappy_robot_msgs) StdoutLine: {'line': b'[ 21%] Built target ament_cmake_python_copy_flappy_robot_msgs\n'}
+[2.605733] (flappy_robot_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.624722] (-) TimerEvent: {}
+[2.724971] (-) TimerEvent: {}
+[2.827210] (-) TimerEvent: {}
+[2.845604] (flappy_robot_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flappy_robot_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.857873] (flappy_robot_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/flappy_robot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/flappy_robot_msgs/msg/detail/flappy_status__type_support.cpp.o\x1b[0m\n'}
+[2.858105] (flappy_robot_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32m\x1b[1mLinking CXX shared library libflappy_robot_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.919007] (flappy_robot_msgs) StdoutLine: {'line': b'[ 31%] Built target flappy_robot_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[2.927279] (-) TimerEvent: {}
+[3.027624] (-) TimerEvent: {}
+[3.090654] (flappy_robot_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32m\x1b[1mLinking CXX shared library libflappy_robot_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.128496] (-) TimerEvent: {}
+[3.143521] (flappy_robot_msgs) StdoutLine: {'line': b'[ 34%] Built target flappy_robot_msgs__rosidl_typesupport_introspection_cpp\n'}
+[3.152450] (flappy_robot_msgs) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.228679] (-) TimerEvent: {}
+[3.263568] (flappy_robot_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flappy_robot_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.276028] (flappy_robot_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/flappy_robot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flappy_robot_msgs/msg/flappy_status__type_support.cpp.o\x1b[0m\n'}
+[3.329529] (-) TimerEvent: {}
+[3.421325] (flappy_robot_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libflappy_robot_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.429590] (-) TimerEvent: {}
+[3.452828] (flappy_robot_msgs) StdoutLine: {'line': b'[ 43%] Built target flappy_robot_msgs__rosidl_typesupport_cpp\n'}
+[3.461813] (flappy_robot_msgs) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.529789] (-) TimerEvent: {}
+[3.571758] (flappy_robot_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flappy_robot_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[3.581164] (flappy_robot_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/flappy_robot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/flappy_robot_msgs/msg/flappy_status__type_support.cpp.o\x1b[0m\n'}
+[3.605466] (flappy_robot_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libflappy_robot_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.629910] (-) TimerEvent: {}
+[3.636602] (flappy_robot_msgs) StdoutLine: {'line': b'[ 53%] Built target flappy_robot_msgs__rosidl_typesupport_c\n'}
+[3.644663] (flappy_robot_msgs) StdoutLine: {'line': b'[ 56%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.730050] (-) TimerEvent: {}
+[3.788594] (flappy_robot_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flappy_robot_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[3.804629] (flappy_robot_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/flappy_robot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/flappy_robot_msgs/msg/detail/flappy_status__type_support_c.cpp.o\x1b[0m\n'}
+[3.830194] (-) TimerEvent: {}
+[3.930646] (-) TimerEvent: {}
+[4.007231] (flappy_robot_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library libflappy_robot_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.030786] (-) TimerEvent: {}
+[4.060142] (flappy_robot_msgs) StdoutLine: {'line': b'[ 62%] Built target flappy_robot_msgs__rosidl_typesupport_fastrtps_c\n'}
+[4.066809] (flappy_robot_msgs) StdoutLine: {'line': b'[ 65%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.130953] (-) TimerEvent: {}
+[4.193143] (flappy_robot_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flappy_robot_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[4.203901] (flappy_robot_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding C object CMakeFiles/flappy_robot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/flappy_robot_msgs/msg/detail/flappy_status__type_support.c.o\x1b[0m\n'}
+[4.231067] (-) TimerEvent: {}
+[4.232621] (flappy_robot_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking C shared library libflappy_robot_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.258604] (flappy_robot_msgs) StdoutLine: {'line': b'[ 71%] Built target flappy_robot_msgs__rosidl_typesupport_introspection_c\n'}
+[4.331527] (-) TimerEvent: {}
+[4.394471] (flappy_robot_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[4.394928] (flappy_robot_msgs) StdoutLine: {'line': b'writing flappy_robot_msgs.egg-info/PKG-INFO\n'}
+[4.395314] (flappy_robot_msgs) StdoutLine: {'line': b'writing dependency_links to flappy_robot_msgs.egg-info/dependency_links.txt\n'}
+[4.395540] (flappy_robot_msgs) StdoutLine: {'line': b'writing top-level names to flappy_robot_msgs.egg-info/top_level.txt\n'}
+[4.397095] (flappy_robot_msgs) StdoutLine: {'line': b"reading manifest file 'flappy_robot_msgs.egg-info/SOURCES.txt'\n"}
+[4.397986] (flappy_robot_msgs) StdoutLine: {'line': b"writing manifest file 'flappy_robot_msgs.egg-info/SOURCES.txt'\n"}
+[4.417513] (flappy_robot_msgs) StdoutLine: {'line': b'[ 71%] Built target ament_cmake_python_build_flappy_robot_msgs_egg\n'}
+[4.430533] (flappy_robot_msgs) StdoutLine: {'line': b'[ 71%] Built target flappy_robot_msgs\n'}
+[4.432700] (-) TimerEvent: {}
+[4.446772] (flappy_robot_msgs) StdoutLine: {'line': b'[ 75%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.532910] (-) TimerEvent: {}
+[4.634517] (-) TimerEvent: {}
+[4.638723] (flappy_robot_msgs) StdoutLine: {'line': b'[ 75%] Built target flappy_robot_msgs__py\n'}
+[4.647800] (flappy_robot_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flappy_robot_msgs__rosidl_generator_py\x1b[0m\n'}
+[4.660009] (flappy_robot_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding C object CMakeFiles/flappy_robot_msgs__rosidl_generator_py.dir/rosidl_generator_py/flappy_robot_msgs/msg/_flappy_status_s.c.o\x1b[0m\n'}
+[4.734658] (-) TimerEvent: {}
+[4.747956] (flappy_robot_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/flappy_robot_msgs/libflappy_robot_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[4.786755] (flappy_robot_msgs) StdoutLine: {'line': b'[ 81%] Built target flappy_robot_msgs__rosidl_generator_py\n'}
+[4.807611] (flappy_robot_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/flappy_robot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/flappy_robot_msgs/_flappy_robot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.834793] (-) TimerEvent: {}
+[4.867597] (flappy_robot_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/flappy_robot_msgs/flappy_robot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.899880] (flappy_robot_msgs) StdoutLine: {'line': b'[ 87%] Built target flappy_robot_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.916969] (flappy_robot_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/flappy_robot_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/flappy_robot_msgs/_flappy_robot_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.935119] (-) TimerEvent: {}
+[4.974081] (flappy_robot_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/flappy_robot_msgs/flappy_robot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.000104] (flappy_robot_msgs) StdoutLine: {'line': b'[ 93%] Built target flappy_robot_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[5.014514] (flappy_robot_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/flappy_robot_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/flappy_robot_msgs/_flappy_robot_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.035214] (-) TimerEvent: {}
+[5.067898] (flappy_robot_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/flappy_robot_msgs/flappy_robot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.095097] (flappy_robot_msgs) StdoutLine: {'line': b'[100%] Built target flappy_robot_msgs__rosidl_typesupport_c__pyext\n'}
+[5.105544] (flappy_robot_msgs) CommandEnded: {'returncode': 0}
+[5.105875] (flappy_robot_msgs) JobProgress: {'identifier': 'flappy_robot_msgs', 'progress': 'install'}
+[5.111551] (flappy_robot_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/chiv/ros2_ws/build/flappy_robot_msgs'], 'cwd': '/home/chiv/ros2_ws/build/flappy_robot_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'chiv'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chiv'), ('CYCLONEDDS_URI', '/home/chiv/.ros/cyclonedds.xml'), ('OLDPWD', '/home/chiv'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1456'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chiv'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chiv'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/chiv-virtual-machine:@/tmp/.ICE-unix/1435,unix/chiv-virtual-machine:/tmp/.ICE-unix/1435'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5475c17f_b32d_4b35_83f8_a99338aaed51'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VNT6P3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.145'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '18'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chiv/ros2_ws/build/flappy_robot_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.117726] (flappy_robot_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.117807] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/ament_index/resource_index/rosidl_interfaces/flappy_robot_msgs\n'}
+[5.117967] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs\n'}
+[5.118038] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg\n'}
+[5.118068] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail\n'}
+[5.118136] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail/flappy_status__type_support.h\n'}
+[5.118163] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail/flappy_status__functions.h\n'}
+[5.118187] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail/flappy_status__type_support.c\n'}
+[5.118208] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail/flappy_status__description.c\n'}
+[5.118229] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail/flappy_status__functions.c\n'}
+[5.118250] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail/flappy_status__struct.h\n'}
+[5.118270] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/flappy_status.h\n'}
+[5.118291] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.118311] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/environment/library_path.sh\n'}
+[5.118330] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/environment/library_path.dsv\n'}
+[5.118440] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/libflappy_robot_msgs__rosidl_generator_c.so\n'}
+[5.118789] (flappy_robot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/chiv/ros2_ws/install/flappy_robot_msgs/lib/libflappy_robot_msgs__rosidl_generator_c.so" to ""\n'}
+[5.118836] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs\n'}
+[5.118915] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg\n'}
+[5.118963] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.118996] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail\n'}
+[5.119072] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail/flappy_status__rosidl_typesupport_fastrtps_c.h\n'}
+[5.119778] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/libflappy_robot_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[5.120218] (flappy_robot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/chiv/ros2_ws/install/flappy_robot_msgs/lib/libflappy_robot_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.120299] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs\n'}
+[5.120346] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg\n'}
+[5.120408] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail\n'}
+[5.120506] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail/flappy_status__rosidl_typesupport_introspection_c.h\n'}
+[5.120681] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail/flappy_status__type_support.c\n'}
+[5.120899] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.121277] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/libflappy_robot_msgs__rosidl_typesupport_introspection_c.so\n'}
+[5.121809] (flappy_robot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/chiv/ros2_ws/install/flappy_robot_msgs/lib/libflappy_robot_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.122192] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/libflappy_robot_msgs__rosidl_typesupport_c.so\n'}
+[5.122781] (flappy_robot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/chiv/ros2_ws/install/flappy_robot_msgs/lib/libflappy_robot_msgs__rosidl_typesupport_c.so" to ""\n'}
+[5.122916] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs\n'}
+[5.122971] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg\n'}
+[5.122999] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail\n'}
+[5.123759] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail/flappy_status__builder.hpp\n'}
+[5.123837] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail/flappy_status__traits.hpp\n'}
+[5.123863] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail/flappy_status__type_support.hpp\n'}
+[5.123886] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail/flappy_status__struct.hpp\n'}
+[5.123907] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[5.123927] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/flappy_status.hpp\n'}
+[5.123947] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs\n'}
+[5.124006] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg\n'}
+[5.124029] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail\n'}
+[5.124050] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail/flappy_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.124753] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail/dds_fastrtps\n'}
+[5.124811] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.125048] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/libflappy_robot_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.125552] (flappy_robot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/chiv/ros2_ws/install/flappy_robot_msgs/lib/libflappy_robot_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[5.125605] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs\n'}
+[5.125687] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg\n'}
+[5.125787] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail\n'}
+[5.125822] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail/flappy_status__type_support.cpp\n'}
+[5.126068] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/include/flappy_robot_msgs/flappy_robot_msgs/msg/detail/flappy_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.126694] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/libflappy_robot_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[5.127247] (flappy_robot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/chiv/ros2_ws/install/flappy_robot_msgs/lib/libflappy_robot_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[5.127618] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/libflappy_robot_msgs__rosidl_typesupport_cpp.so\n'}
+[5.128345] (flappy_robot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/chiv/ros2_ws/install/flappy_robot_msgs/lib/libflappy_robot_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[5.128419] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/environment/pythonpath.sh\n'}
+[5.128553] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/environment/pythonpath.dsv\n'}
+[5.128592] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs-0.0.1-py3.12.egg-info\n'}
+[5.128647] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs-0.0.1-py3.12.egg-info/PKG-INFO\n'}
+[5.128731] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs-0.0.1-py3.12.egg-info/SOURCES.txt\n'}
+[5.128799] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs-0.0.1-py3.12.egg-info/dependency_links.txt\n'}
+[5.129089] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs-0.0.1-py3.12.egg-info/top_level.txt\n'}
+[5.129129] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs\n'}
+[5.129182] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/_flappy_robot_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[5.129381] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/flappy_robot_msgs_s__rosidl_typesupport_c.so\n'}
+[5.129492] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/flappy_robot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.129530] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/flappy_robot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.129578] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/_flappy_robot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.129780] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/msg\n'}
+[5.129858] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/msg/__init__.py\n'}
+[5.130083] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/msg/_flappy_status.py\n'}
+[5.130149] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/msg/_flappy_status_s.c\n'}
+[5.130282] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/__init__.py\n'}
+[5.130361] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/flappy_robot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.130535] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/_flappy_robot_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.130696] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/libflappy_robot_msgs__rosidl_generator_py.so\n'}
+[5.130793] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/flappy_robot_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[5.131243] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/flappy_robot_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[5.135831] (-) TimerEvent: {}
+[5.155868] (flappy_robot_msgs) StdoutLine: {'line': b"Listing '/home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs'...\n"}
+[5.156288] (flappy_robot_msgs) StdoutLine: {'line': b"Compiling '/home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/__init__.py'...\n"}
+[5.156326] (flappy_robot_msgs) StdoutLine: {'line': b"Listing '/home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/msg'...\n"}
+[5.156361] (flappy_robot_msgs) StdoutLine: {'line': b"Compiling '/home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/msg/__init__.py'...\n"}
+[5.156386] (flappy_robot_msgs) StdoutLine: {'line': b"Compiling '/home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/msg/_flappy_status.py'...\n"}
+[5.159138] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/flappy_robot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.159292] (flappy_robot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/flappy_robot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.159613] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/flappy_robot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.159898] (flappy_robot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/flappy_robot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.160240] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/flappy_robot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.161247] (flappy_robot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages/flappy_robot_msgs/flappy_robot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.162808] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/lib/libflappy_robot_msgs__rosidl_generator_py.so\n'}
+[5.163466] (flappy_robot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/chiv/ros2_ws/install/flappy_robot_msgs/lib/libflappy_robot_msgs__rosidl_generator_py.so" to ""\n'}
+[5.163781] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/ament_index/resource_index/rust_packages/flappy_robot_msgs\n'}
+[5.164075] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/rust\n'}
+[5.164179] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/rust/build.rs\n'}
+[5.164376] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/rust/src\n'}
+[5.164631] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/rust/src/msg.rs\n'}
+[5.164808] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/rust/src/msg\n'}
+[5.165020] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/rust/src/msg/rmw.rs\n'}
+[5.165302] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/rust/src/lib.rs\n'}
+[5.165586] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/rust/Cargo.toml\n'}
+[5.165652] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/msg/FlappyStatus.idl\n'}
+[5.165685] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/msg/FlappyStatus.msg\n'}
+[5.165711] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/ament_index/resource_index/package_run_dependencies/flappy_robot_msgs\n'}
+[5.165737] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/ament_index/resource_index/parent_prefix_path/flappy_robot_msgs\n'}
+[5.165759] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/environment/ament_prefix_path.sh\n'}
+[5.166220] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/environment/ament_prefix_path.dsv\n'}
+[5.166276] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/environment/path.sh\n'}
+[5.166358] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/environment/path.dsv\n'}
+[5.166601] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/local_setup.bash\n'}
+[5.166774] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/local_setup.sh\n'}
+[5.166900] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/local_setup.zsh\n'}
+[5.167021] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/local_setup.dsv\n'}
+[5.167253] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/package.dsv\n'}
+[5.167620] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/ament_index/resource_index/packages/flappy_robot_msgs\n'}
+[5.167774] (flappy_robot_msgs) StdoutLine: {'line': b'-- Old export file "/home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/export_flappy_robot_msgs__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/export_flappy_robot_msgs__rosidl_generator_cExport-noconfig.cmake].\n'}
+[5.168063] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/export_flappy_robot_msgs__rosidl_generator_cExport.cmake\n'}
+[5.168201] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/export_flappy_robot_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.168507] (flappy_robot_msgs) StdoutLine: {'line': b'-- Old export file "/home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/export_flappy_robot_msgs__rosidl_typesupport_fastrtps_cExport.cmake" will be replaced.  Removing files [/home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/export_flappy_robot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake].\n'}
+[5.168679] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/export_flappy_robot_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[5.169065] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/export_flappy_robot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[5.169209] (flappy_robot_msgs) StdoutLine: {'line': b'-- Old export file "/home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/flappy_robot_msgs__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/flappy_robot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake].\n'}
+[5.169383] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/flappy_robot_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.169664] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/flappy_robot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.169849] (flappy_robot_msgs) StdoutLine: {'line': b'-- Old export file "/home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/flappy_robot_msgs__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/flappy_robot_msgs__rosidl_typesupport_cExport-noconfig.cmake].\n'}
+[5.169950] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/flappy_robot_msgs__rosidl_typesupport_cExport.cmake\n'}
+[5.169999] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/flappy_robot_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.170104] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/export_flappy_robot_msgs__rosidl_generator_cppExport.cmake\n'}
+[5.170270] (flappy_robot_msgs) StdoutLine: {'line': b'-- Old export file "/home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/export_flappy_robot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake" will be replaced.  Removing files [/home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/export_flappy_robot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake].\n'}
+[5.170370] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/export_flappy_robot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[5.170402] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/export_flappy_robot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[5.170519] (flappy_robot_msgs) StdoutLine: {'line': b'-- Old export file "/home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/flappy_robot_msgs__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/flappy_robot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake].\n'}
+[5.170606] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/flappy_robot_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.172653] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/flappy_robot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.172724] (flappy_robot_msgs) StdoutLine: {'line': b'-- Old export file "/home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/flappy_robot_msgs__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/flappy_robot_msgs__rosidl_typesupport_cppExport-noconfig.cmake].\n'}
+[5.172757] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/flappy_robot_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[5.172784] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/flappy_robot_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.172808] (flappy_robot_msgs) StdoutLine: {'line': b'-- Old export file "/home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/export_flappy_robot_msgs__rosidl_generator_pyExport.cmake" will be replaced.  Removing files [/home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/export_flappy_robot_msgs__rosidl_generator_pyExport-noconfig.cmake].\n'}
+[5.172843] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/export_flappy_robot_msgs__rosidl_generator_pyExport.cmake\n'}
+[5.172866] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/export_flappy_robot_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[5.172887] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[5.172909] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.172930] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.172951] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.172972] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.172992] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.173013] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.173036] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/flappy_robot_msgsConfig.cmake\n'}
+[5.173056] (flappy_robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/flappy_robot_msgsConfig-version.cmake\n'}
+[5.173077] (flappy_robot_msgs) StdoutLine: {'line': b'-- Installing: /home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/package.xml\n'}
+[5.174316] (flappy_robot_msgs) CommandEnded: {'returncode': 0}
+[5.197743] (flappy_robot_msgs) JobEnded: {'identifier': 'flappy_robot_msgs', 'rc': 0}
+[5.198917] (flappy_robot) JobStarted: {'identifier': 'flappy_robot'}
+[5.235975] (-) TimerEvent: {}
+[5.337627] (-) TimerEvent: {}
+[5.437946] (-) TimerEvent: {}
+[5.538244] (-) TimerEvent: {}
+[5.638635] (-) TimerEvent: {}
+[5.702359] (flappy_robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/flappy_robot', 'build', '--build-base', '/home/chiv/ros2_ws/build/flappy_robot/build', 'install', '--record', '/home/chiv/ros2_ws/build/flappy_robot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/chiv/ros2_ws/src/flappy_robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'chiv', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/chiv/ros2_ws/install/flappy_robot_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/chiv', 'CYCLONEDDS_URI': '/home/chiv/.ros/cyclonedds.xml', 'OLDPWD': '/home/chiv', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1456', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'chiv', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'chiv', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/chiv-virtual-machine:@/tmp/.ICE-unix/1435,unix/chiv-virtual-machine:/tmp/.ICE-unix/1435', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5475c17f_b32d_4b35_83f8_a99338aaed51', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.VNT6P3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.145', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '18', 'AMENT_PREFIX_PATH': '/home/chiv/ros2_ws/install/flappy_robot_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/chiv/ros2_ws/build/flappy_robot', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/chiv/ros2_ws/build/flappy_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chiv/ros2_ws/install/flappy_robot/lib/python3.10/site-packages:/home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.12/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/chiv/ros2_ws/install/flappy_robot_msgs'}, 'shell': False}
+[5.738755] (-) TimerEvent: {}
+[5.839046] (-) TimerEvent: {}
+[5.858705] (flappy_robot) StdoutLine: {'line': b'running egg_info\n'}
+[5.859222] (flappy_robot) StdoutLine: {'line': b'writing ../../build/flappy_robot/flappy_robot.egg-info/PKG-INFO\n'}
+[5.859638] (flappy_robot) StdoutLine: {'line': b'writing dependency_links to ../../build/flappy_robot/flappy_robot.egg-info/dependency_links.txt\n'}
+[5.860642] (flappy_robot) StdoutLine: {'line': b'writing entry points to ../../build/flappy_robot/flappy_robot.egg-info/entry_points.txt\n'}
+[5.860690] (flappy_robot) StdoutLine: {'line': b'writing requirements to ../../build/flappy_robot/flappy_robot.egg-info/requires.txt\n'}
+[5.860730] (flappy_robot) StdoutLine: {'line': b'writing top-level names to ../../build/flappy_robot/flappy_robot.egg-info/top_level.txt\n'}
+[5.861363] (flappy_robot) StdoutLine: {'line': b"reading manifest file '../../build/flappy_robot/flappy_robot.egg-info/SOURCES.txt'\n"}
+[5.862154] (flappy_robot) StdoutLine: {'line': b"writing manifest file '../../build/flappy_robot/flappy_robot.egg-info/SOURCES.txt'\n"}
+[5.862432] (flappy_robot) StdoutLine: {'line': b'running build\n'}
+[5.862476] (flappy_robot) StdoutLine: {'line': b'running build_py\n'}
+[5.862744] (flappy_robot) StdoutLine: {'line': b'running install\n'}
+[5.862968] (flappy_robot) StdoutLine: {'line': b'running install_lib\n'}
+[5.863393] (flappy_robot) StdoutLine: {'line': b'creating /home/chiv/ros2_ws/install/flappy_robot/lib/python3.10/site-packages/flappy_robot\n'}
+[5.863493] (flappy_robot) StdoutLine: {'line': b'copying /home/chiv/ros2_ws/build/flappy_robot/build/lib/flappy_robot/visualization.py -> /home/chiv/ros2_ws/install/flappy_robot/lib/python3.10/site-packages/flappy_robot\n'}
+[5.864059] (flappy_robot) StdoutLine: {'line': b'copying /home/chiv/ros2_ws/build/flappy_robot/build/lib/flappy_robot/game_window.py -> /home/chiv/ros2_ws/install/flappy_robot/lib/python3.10/site-packages/flappy_robot\n'}
+[5.864236] (flappy_robot) StdoutLine: {'line': b'copying /home/chiv/ros2_ws/build/flappy_robot/build/lib/flappy_robot/__init__.py -> /home/chiv/ros2_ws/install/flappy_robot/lib/python3.10/site-packages/flappy_robot\n'}
+[5.864287] (flappy_robot) StdoutLine: {'line': b'copying /home/chiv/ros2_ws/build/flappy_robot/build/lib/flappy_robot/game_logic.py -> /home/chiv/ros2_ws/install/flappy_robot/lib/python3.10/site-packages/flappy_robot\n'}
+[5.864585] (flappy_robot) StdoutLine: {'line': b'copying /home/chiv/ros2_ws/build/flappy_robot/build/lib/flappy_robot/keyboard_controller.py -> /home/chiv/ros2_ws/install/flappy_robot/lib/python3.10/site-packages/flappy_robot\n'}
+[5.866466] (flappy_robot) StdoutLine: {'line': b'byte-compiling /home/chiv/ros2_ws/install/flappy_robot/lib/python3.10/site-packages/flappy_robot/visualization.py to visualization.cpython-310.pyc\n'}
+[5.866542] (flappy_robot) StdoutLine: {'line': b'byte-compiling /home/chiv/ros2_ws/install/flappy_robot/lib/python3.10/site-packages/flappy_robot/game_window.py to game_window.cpython-310.pyc\n'}
+[5.866746] (flappy_robot) StdoutLine: {'line': b'byte-compiling /home/chiv/ros2_ws/install/flappy_robot/lib/python3.10/site-packages/flappy_robot/__init__.py to __init__.cpython-310.pyc\n'}
+[5.867507] (flappy_robot) StdoutLine: {'line': b'byte-compiling /home/chiv/ros2_ws/install/flappy_robot/lib/python3.10/site-packages/flappy_robot/game_logic.py to game_logic.cpython-310.pyc\n'}
+[5.867718] (flappy_robot) StdoutLine: {'line': b'byte-compiling /home/chiv/ros2_ws/install/flappy_robot/lib/python3.10/site-packages/flappy_robot/keyboard_controller.py to keyboard_controller.cpython-310.pyc\n'}
+[5.867958] (flappy_robot) StdoutLine: {'line': b'running install_data\n'}
+[5.868323] (flappy_robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.869211] (flappy_robot) StdoutLine: {'line': b'Copying ../../build/flappy_robot/flappy_robot.egg-info to /home/chiv/ros2_ws/install/flappy_robot/lib/python3.10/site-packages/flappy_robot-0.0.1-py3.10.egg-info\n'}
+[5.869967] (flappy_robot) StdoutLine: {'line': b'running install_scripts\n'}
+[5.884357] (flappy_robot) StdoutLine: {'line': b'Installing game_logic script to /home/chiv/ros2_ws/install/flappy_robot/lib/flappy_robot\n'}
+[5.884494] (flappy_robot) StdoutLine: {'line': b'Installing game_window script to /home/chiv/ros2_ws/install/flappy_robot/lib/flappy_robot\n'}
+[5.884533] (flappy_robot) StdoutLine: {'line': b'Installing keyboard_controller script to /home/chiv/ros2_ws/install/flappy_robot/lib/flappy_robot\n'}
+[5.884564] (flappy_robot) StdoutLine: {'line': b'Installing visualization script to /home/chiv/ros2_ws/install/flappy_robot/lib/flappy_robot\n'}
+[5.884603] (flappy_robot) StdoutLine: {'line': b"writing list of installed files to '/home/chiv/ros2_ws/build/flappy_robot/install.log'\n"}
+[5.902721] (flappy_robot) CommandEnded: {'returncode': 0}
+[5.908996] (flappy_robot) JobEnded: {'identifier': 'flappy_robot', 'rc': 0}
+[5.909543] (-) EventReactorShutdown: {}

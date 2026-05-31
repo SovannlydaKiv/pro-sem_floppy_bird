@@ -2,9 +2,6 @@
 // with input from flappy_robot_msgs:msg/FlappyStatus.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "flappy_robot_msgs/msg/flappy_status.h"
-
-
 #ifndef FLAPPY_ROBOT_MSGS__MSG__DETAIL__FLAPPY_STATUS__TYPE_SUPPORT_H_
 #define FLAPPY_ROBOT_MSGS__MSG__DETAIL__FLAPPY_STATUS__TYPE_SUPPORT_H_
 
@@ -27,7 +24,7 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
   flappy_robot_msgs,
   msg,
   FlappyStatus
-)(void);
+)();
 
 #ifdef __cplusplus
 }
