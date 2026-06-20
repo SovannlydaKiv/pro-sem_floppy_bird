@@ -13,7 +13,11 @@ flappy_robot/game_logic.py
 flappy_robot/game_window.py
 flappy_robot/keyboard_controller.py
 flappy_robot/visualization.py
+flappy_robot/assets/bird.png
 launch/flappy.launch.py
+meshes/12213_bird_diffuse.jpg
+meshes/Map__7_Normal Bump.jpg
+meshes/bird.dae
 resource/flappy_robot
 test/test_copyright.py
 test/test_flake8.py

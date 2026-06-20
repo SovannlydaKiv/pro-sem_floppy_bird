@@ -1,0 +1,27 @@
+[0.381s] Invoking command in '/home/chiv/ros2_ws/src/flappy_robot': CMAKE_PREFIX_PATH=/home/chiv/ros2_ws/install/flappy_robot_msgs:/home/chiv/ros2_ws/install/two_wheeled_robot:/home/chiv/turtlebot3_ws/install/turtlebot3:/home/chiv/turtlebot3_ws/install/turtlebot3_bringup:/home/chiv/turtlebot3_ws/install/turtlebot3_node:/home/chiv/turtlebot3_ws/install/turtlebot3_navigation2:/home/chiv/turtlebot3_ws/install/turtlebot3_msgs:/home/chiv/turtlebot3_ws/install/turtlebot3_description:/home/chiv/turtlebot3_ws/install/turtlebot3_cartographer:/home/chiv/turtlebot3_ws/install/dynamixel_sdk_examples:/home/chiv/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/chiv/turtlebot3_ws/install/dynamixel_sdk PYTHONPATH=/home/chiv/ros2_ws/build/flappy_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chiv/ros2_ws/install/flappy_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/flappy_robot build --build-base /home/chiv/ros2_ws/build/flappy_robot/build install --record /home/chiv/ros2_ws/build/flappy_robot/install.log --single-version-externally-managed install_data
+[0.521s] running egg_info
+[0.521s] writing ../../build/flappy_robot/flappy_robot.egg-info/PKG-INFO
+[0.521s] writing dependency_links to ../../build/flappy_robot/flappy_robot.egg-info/dependency_links.txt
+[0.522s] writing entry points to ../../build/flappy_robot/flappy_robot.egg-info/entry_points.txt
+[0.522s] writing requirements to ../../build/flappy_robot/flappy_robot.egg-info/requires.txt
+[0.522s] writing top-level names to ../../build/flappy_robot/flappy_robot.egg-info/top_level.txt
+[0.523s] reading manifest file '../../build/flappy_robot/flappy_robot.egg-info/SOURCES.txt'
+[0.524s] writing manifest file '../../build/flappy_robot/flappy_robot.egg-info/SOURCES.txt'
+[0.524s] running build
+[0.524s] running build_py
+[0.524s] copying flappy_robot/visualization.py -> /home/chiv/ros2_ws/build/flappy_robot/build/lib/flappy_robot
+[0.524s] running install
+[0.524s] running install_lib
+[0.525s] copying /home/chiv/ros2_ws/build/flappy_robot/build/lib/flappy_robot/visualization.py -> /home/chiv/ros2_ws/install/flappy_robot/lib/python3.10/site-packages/flappy_robot
+[0.525s] byte-compiling /home/chiv/ros2_ws/install/flappy_robot/lib/python3.10/site-packages/flappy_robot/visualization.py to visualization.cpython-310.pyc
+[0.526s] running install_data
+[0.527s] running install_egg_info
+[0.528s] removing '/home/chiv/ros2_ws/install/flappy_robot/lib/python3.10/site-packages/flappy_robot-0.0.1-py3.10.egg-info' (and everything under it)
+[0.528s] Copying ../../build/flappy_robot/flappy_robot.egg-info to /home/chiv/ros2_ws/install/flappy_robot/lib/python3.10/site-packages/flappy_robot-0.0.1-py3.10.egg-info
+[0.528s] running install_scripts
+[0.543s] Installing game_logic script to /home/chiv/ros2_ws/install/flappy_robot/lib/flappy_robot
+[0.543s] Installing game_window script to /home/chiv/ros2_ws/install/flappy_robot/lib/flappy_robot
+[0.543s] Installing keyboard_controller script to /home/chiv/ros2_ws/install/flappy_robot/lib/flappy_robot
+[0.543s] Installing visualization script to /home/chiv/ros2_ws/install/flappy_robot/lib/flappy_robot
+[0.544s] writing list of installed files to '/home/chiv/ros2_ws/build/flappy_robot/install.log'
+[0.558s] Invoked command in '/home/chiv/ros2_ws/src/flappy_robot' returned '0': CMAKE_PREFIX_PATH=/home/chiv/ros2_ws/install/flappy_robot_msgs:/home/chiv/ros2_ws/install/two_wheeled_robot:/home/chiv/turtlebot3_ws/install/turtlebot3:/home/chiv/turtlebot3_ws/install/turtlebot3_bringup:/home/chiv/turtlebot3_ws/install/turtlebot3_node:/home/chiv/turtlebot3_ws/install/turtlebot3_navigation2:/home/chiv/turtlebot3_ws/install/turtlebot3_msgs:/home/chiv/turtlebot3_ws/install/turtlebot3_description:/home/chiv/turtlebot3_ws/install/turtlebot3_cartographer:/home/chiv/turtlebot3_ws/install/dynamixel_sdk_examples:/home/chiv/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/chiv/turtlebot3_ws/install/dynamixel_sdk PYTHONPATH=/home/chiv/ros2_ws/build/flappy_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chiv/ros2_ws/install/flappy_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/flappy_robot build --build-base /home/chiv/ros2_ws/build/flappy_robot/build install --record /home/chiv/ros2_ws/build/flappy_robot/install.log --single-version-externally-managed install_data

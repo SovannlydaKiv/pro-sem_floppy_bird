@@ -2,6 +2,8 @@ import rclpy
 from rclpy.node import Node
 from flappy_robot_msgs.msg import FlappyStatus
 import pygame, sys, random
+from ament_index_python.packages import get_package_share_directory
+import os
 
 class FlappyGameWindow(Node):
     def __init__(self):
@@ -16,6 +18,7 @@ class FlappyGameWindow(Node):
         self.PIPE_GAP = 180
         self.PIPE_WIDTH = 70
         self.reset_game()
+        self.bird_img = None
         self.timer = self.create_timer(0.033, self.publish_status)
 
     def reset_game(self):
@@ -82,10 +85,12 @@ class FlappyGameWindow(Node):
             pygame.draw.rect(screen, (0, 100, 0), (pipe['x']-5, top_h-20, self.PIPE_WIDTH+10, 20))
             pygame.draw.rect(screen, (34, 139, 34), (pipe['x'], bot_y, self.PIPE_WIDTH, bot_h))
             pygame.draw.rect(screen, (0, 100, 0), (pipe['x']-5, bot_y, self.PIPE_WIDTH+10, 20))
-        pygame.draw.rect(screen, (255, 200, 0), (self.robot_x, int(self.robot_y), 35, 35))
-        pygame.draw.rect(screen, (50, 50, 50), (self.robot_x+2, int(self.robot_y)+2, 31, 31), 2)
-        pygame.draw.circle(screen, (255, 255, 255), (self.robot_x+24, int(self.robot_y)+10), 7)
-        pygame.draw.circle(screen, (0, 0, 0), (self.robot_x+26, int(self.robot_y)+10), 4)
+        if self.bird_img:
+            angle = max(-45, min(45, -self.robot_vel * 3))
+            rotated = pygame.transform.rotate(self.bird_img, angle)
+            screen.blit(rotated, (self.robot_x, int(self.robot_y)))
+        else:
+            pygame.draw.rect(screen, (255, 200, 0), (self.robot_x, int(self.robot_y), 35, 35))
         screen.blit(font.render(f"Score: {self.score}", True, (255,255,255)), (10, 10))
         screen.blit(font.render("ROS2 Flappy Robot", True, (255,255,255)), (self.WIDTH-200, 10))
         if not self.started and not self.game_over:
@@ -112,6 +117,9 @@ class FlappyGameWindow(Node):
         pygame.init()
         screen = pygame.display.set_mode((self.WIDTH, self.HEIGHT))
         pygame.display.set_caption("Flappy Robot - ROS2")
+        asset_path = os.path.join(get_package_share_directory('flappy_robot'), 'assets', 'bird.png')
+        self.bird_img = pygame.image.load(asset_path).convert_alpha()
+        self.bird_img = pygame.transform.scale(self.bird_img, (35, 35))
         clock = pygame.time.Clock()
         font = pygame.font.SysFont('Arial', 24)
         big_font = pygame.font.SysFont('Arial', 48, bold=True)
@@ -135,3 +143,6 @@ def main(args=None):
     node = FlappyGameWindow()
     node.run_game()
     rclpy.shutdown()
+
+if __name__ == '__main__':
+    main()
