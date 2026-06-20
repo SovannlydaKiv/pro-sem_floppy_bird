@@ -1,3 +1,4 @@
+import math
 import rclpy
 from rclpy.node import Node
 from visualization_msgs.msg import Marker, MarkerArray
@@ -35,7 +36,8 @@ class Visualization(Node):
     def status_cb(self, msg):
         markers = MarkerArray()
         robot_z = msg.vertical_velocity * 0.1 + 5.0
-       # 3D bird mesh marker
+
+        # 3D bird mesh marker
         bird = Marker()
         bird.header.frame_id = "map"
         bird.header.stamp = self.get_clock().now().to_msg()
@@ -46,12 +48,13 @@ class Visualization(Node):
         bird.pose.position.x = 0.0
         bird.pose.position.y = 0.0
         bird.pose.position.z = float(robot_z)
-        # Rotate 90 degrees around Z axis to face forward
-        import math
+
+        # TRY 4: Small 30 degree turn around Z axis only (no X/Y tilt)
         bird.pose.orientation.x = 0.0
-        bird.pose.orientation.y = 0.707
-        bird.pose.orientation.z = 0.0
-        bird.pose.orientation.w = 0.707
+        bird.pose.orientation.y = 0.0
+        bird.pose.orientation.z = 0.2588   # sin(15 deg)
+        bird.pose.orientation.w = 0.9659   # cos(15 deg)
+
         bird.scale.x = 0.05
         bird.scale.y = 0.05
         bird.scale.z = 0.05
@@ -60,6 +63,7 @@ class Visualization(Node):
         bird.mesh_use_embedded_materials = True
         bird.color.a = 1.0
         markers.markers.append(bird)
+
         for i, px in enumerate(msg.pipe_positions):
             markers.markers.append(self.make_marker("pipes", i+1, Marker.CYLINDER, px, 2.5, 0.4, 0.4, 5.0, 0.2, 0.6, 1.0))
         markers.markers.append(self.make_marker("ground", 100, Marker.CUBE, 0, -0.25, 50.0, 5.0, 0.5, 0.6, 0.4, 0.1))

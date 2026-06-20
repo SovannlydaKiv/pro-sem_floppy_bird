@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "two_wheeled_robot")
 set(two_wheeled_robot_VERSION "0.0.1")
-set(two_wheeled_robot_MAINTAINER "chiv <chiv@email.com>")
+set(two_wheeled_robot_MAINTAINER "chiv <sovannlydakiv@email.com>")
 set(two_wheeled_robot_BUILD_DEPENDS "rclpy" "robot_state_publisher" "joint_state_publisher_gui" "xacro" "gazebo_ros")
 set(two_wheeled_robot_BUILDTOOL_DEPENDS "ament_cmake")
 set(two_wheeled_robot_BUILD_EXPORT_DEPENDS "rclpy" "robot_state_publisher" "joint_state_publisher_gui" "xacro" "gazebo_ros")

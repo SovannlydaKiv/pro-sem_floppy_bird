@@ -3,7 +3,7 @@
   <name>two_wheeled_robot</name>
   <version>0.0.1</version>
   <description>Two Wheeled Robot Package</description>
-  <maintainer email="chiv@email.com">chiv</maintainer>
+  <maintainer email="sovannlydakiv@email.com">chiv</maintainer>
   <license>Apache-2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>

@@ -1,0 +1,57 @@
+[0.350s] Invoking command in '/home/lyda/ros2_ws/src/flappy_robot': CMAKE_PREFIX_PATH=/home/lyda/ros2_ws/install/flappy_robot_msgs:/home/lyda/dev_ws/install/two_wheeled_robot:/home/lyda/dev_ws/install/my_package_cpp:/home/lyda/ros2_ws/install/two_wheeled_robot PYTHONPATH=/home/lyda/ros2_ws/build/flappy_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lyda/ros2_ws/install/flappy_robot/lib/python3.10/site-packages:/home/lyda/ros2_ws/install/flappy_robot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/flappy_robot build --build-base /home/lyda/ros2_ws/build/flappy_robot/build install --record /home/lyda/ros2_ws/build/flappy_robot/install.log --single-version-externally-managed install_data
+[0.461s] running egg_info
+[0.462s] creating ../../build/flappy_robot/flappy_robot.egg-info
+[0.462s] writing ../../build/flappy_robot/flappy_robot.egg-info/PKG-INFO
+[0.462s] writing dependency_links to ../../build/flappy_robot/flappy_robot.egg-info/dependency_links.txt
+[0.462s] writing entry points to ../../build/flappy_robot/flappy_robot.egg-info/entry_points.txt
+[0.462s] writing requirements to ../../build/flappy_robot/flappy_robot.egg-info/requires.txt
+[0.462s] writing top-level names to ../../build/flappy_robot/flappy_robot.egg-info/top_level.txt
+[0.462s] writing manifest file '../../build/flappy_robot/flappy_robot.egg-info/SOURCES.txt'
+[0.463s] reading manifest file '../../build/flappy_robot/flappy_robot.egg-info/SOURCES.txt'
+[0.463s] writing manifest file '../../build/flappy_robot/flappy_robot.egg-info/SOURCES.txt'
+[0.466s] running build
+[0.466s] running build_py
+[0.466s] creating /home/lyda/ros2_ws/build/flappy_robot/build
+[0.468s] creating /home/lyda/ros2_ws/build/flappy_robot/build/lib
+[0.468s] creating /home/lyda/ros2_ws/build/flappy_robot/build/lib/flappy_robot
+[0.468s] copying flappy_robot/game_window.py -> /home/lyda/ros2_ws/build/flappy_robot/build/lib/flappy_robot
+[0.468s] copying flappy_robot/keyboard_controller.py -> /home/lyda/ros2_ws/build/flappy_robot/build/lib/flappy_robot
+[0.468s] copying flappy_robot/__init__.py -> /home/lyda/ros2_ws/build/flappy_robot/build/lib/flappy_robot
+[0.468s] copying flappy_robot/visualization.py -> /home/lyda/ros2_ws/build/flappy_robot/build/lib/flappy_robot
+[0.468s] copying flappy_robot/game_logic.py -> /home/lyda/ros2_ws/build/flappy_robot/build/lib/flappy_robot
+[0.468s] running install
+[0.468s] running install_lib
+[0.468s] creating /home/lyda/ros2_ws/install/flappy_robot/lib/python3.10/site-packages/flappy_robot
+[0.468s] copying /home/lyda/ros2_ws/build/flappy_robot/build/lib/flappy_robot/game_window.py -> /home/lyda/ros2_ws/install/flappy_robot/lib/python3.10/site-packages/flappy_robot
+[0.468s] copying /home/lyda/ros2_ws/build/flappy_robot/build/lib/flappy_robot/keyboard_controller.py -> /home/lyda/ros2_ws/install/flappy_robot/lib/python3.10/site-packages/flappy_robot
+[0.469s] copying /home/lyda/ros2_ws/build/flappy_robot/build/lib/flappy_robot/__init__.py -> /home/lyda/ros2_ws/install/flappy_robot/lib/python3.10/site-packages/flappy_robot
+[0.469s] copying /home/lyda/ros2_ws/build/flappy_robot/build/lib/flappy_robot/visualization.py -> /home/lyda/ros2_ws/install/flappy_robot/lib/python3.10/site-packages/flappy_robot
+[0.469s] copying /home/lyda/ros2_ws/build/flappy_robot/build/lib/flappy_robot/game_logic.py -> /home/lyda/ros2_ws/install/flappy_robot/lib/python3.10/site-packages/flappy_robot
+[0.469s] byte-compiling /home/lyda/ros2_ws/install/flappy_robot/lib/python3.10/site-packages/flappy_robot/game_window.py to game_window.cpython-310.pyc
+[0.469s] byte-compiling /home/lyda/ros2_ws/install/flappy_robot/lib/python3.10/site-packages/flappy_robot/keyboard_controller.py to keyboard_controller.cpython-310.pyc
+[0.469s] byte-compiling /home/lyda/ros2_ws/install/flappy_robot/lib/python3.10/site-packages/flappy_robot/__init__.py to __init__.cpython-310.pyc
+[0.469s] byte-compiling /home/lyda/ros2_ws/install/flappy_robot/lib/python3.10/site-packages/flappy_robot/visualization.py to visualization.cpython-310.pyc
+[0.469s] byte-compiling /home/lyda/ros2_ws/install/flappy_robot/lib/python3.10/site-packages/flappy_robot/game_logic.py to game_logic.cpython-310.pyc
+[0.469s] running install_data
+[0.469s] creating /home/lyda/ros2_ws/install/flappy_robot/share/ament_index
+[0.469s] creating /home/lyda/ros2_ws/install/flappy_robot/share/ament_index/resource_index
+[0.469s] creating /home/lyda/ros2_ws/install/flappy_robot/share/ament_index/resource_index/packages
+[0.469s] copying resource/flappy_robot -> /home/lyda/ros2_ws/install/flappy_robot/share/ament_index/resource_index/packages
+[0.470s] copying package.xml -> /home/lyda/ros2_ws/install/flappy_robot/share/flappy_robot
+[0.470s] creating /home/lyda/ros2_ws/install/flappy_robot/share/flappy_robot/launch
+[0.470s] copying launch/flappy.launch.py -> /home/lyda/ros2_ws/install/flappy_robot/share/flappy_robot/launch
+[0.470s] creating /home/lyda/ros2_ws/install/flappy_robot/share/flappy_robot/meshes
+[0.470s] copying meshes/12213_bird_diffuse.jpg -> /home/lyda/ros2_ws/install/flappy_robot/share/flappy_robot/meshes
+[0.470s] copying meshes/Map__7_Normal Bump.jpg -> /home/lyda/ros2_ws/install/flappy_robot/share/flappy_robot/meshes
+[0.470s] copying meshes/bird.dae -> /home/lyda/ros2_ws/install/flappy_robot/share/flappy_robot/meshes
+[0.481s] creating /home/lyda/ros2_ws/install/flappy_robot/share/flappy_robot/assets
+[0.481s] copying flappy_robot/assets/bird.png -> /home/lyda/ros2_ws/install/flappy_robot/share/flappy_robot/assets
+[0.481s] running install_egg_info
+[0.482s] Copying ../../build/flappy_robot/flappy_robot.egg-info to /home/lyda/ros2_ws/install/flappy_robot/lib/python3.10/site-packages/flappy_robot-0.0.1-py3.10.egg-info
+[0.482s] running install_scripts
+[0.494s] Installing game_logic script to /home/lyda/ros2_ws/install/flappy_robot/lib/flappy_robot
+[0.494s] Installing game_window script to /home/lyda/ros2_ws/install/flappy_robot/lib/flappy_robot
+[0.494s] Installing keyboard_controller script to /home/lyda/ros2_ws/install/flappy_robot/lib/flappy_robot
+[0.494s] Installing visualization script to /home/lyda/ros2_ws/install/flappy_robot/lib/flappy_robot
+[0.494s] writing list of installed files to '/home/lyda/ros2_ws/build/flappy_robot/install.log'
+[0.509s] Invoked command in '/home/lyda/ros2_ws/src/flappy_robot' returned '0': CMAKE_PREFIX_PATH=/home/lyda/ros2_ws/install/flappy_robot_msgs:/home/lyda/dev_ws/install/two_wheeled_robot:/home/lyda/dev_ws/install/my_package_cpp:/home/lyda/ros2_ws/install/two_wheeled_robot PYTHONPATH=/home/lyda/ros2_ws/build/flappy_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lyda/ros2_ws/install/flappy_robot/lib/python3.10/site-packages:/home/lyda/ros2_ws/install/flappy_robot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/flappy_robot build --build-base /home/lyda/ros2_ws/build/flappy_robot/build install --record /home/lyda/ros2_ws/build/flappy_robot/install.log --single-version-externally-managed install_data

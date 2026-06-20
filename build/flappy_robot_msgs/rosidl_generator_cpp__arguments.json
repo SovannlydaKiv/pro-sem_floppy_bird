@@ -1,9 +1,9 @@
 {
   "package_name": "flappy_robot_msgs",
-  "output_dir": "/home/chiv/ros2_ws/build/flappy_robot_msgs/rosidl_generator_cpp/flappy_robot_msgs",
+  "output_dir": "/home/lyda/ros2_ws/build/flappy_robot_msgs/rosidl_generator_cpp/flappy_robot_msgs",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource",
   "idl_tuples": [
-    "/home/chiv/ros2_ws/build/flappy_robot_msgs/rosidl_adapter/flappy_robot_msgs:msg/FlappyStatus.idl"
+    "/home/lyda/ros2_ws/build/flappy_robot_msgs/rosidl_adapter/flappy_robot_msgs:msg/FlappyStatus.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp",
@@ -21,6 +21,6 @@
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__builder.hpp.em",
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
-    "/home/chiv/ros2_ws/build/flappy_robot_msgs/rosidl_adapter/flappy_robot_msgs/msg/FlappyStatus.idl"
+    "/home/lyda/ros2_ws/build/flappy_robot_msgs/rosidl_adapter/flappy_robot_msgs/msg/FlappyStatus.idl"
   ]
 }

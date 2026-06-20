@@ -1,6 +1,6 @@
 {
   "package_name": "flappy_robot_msgs",
   "non_idl_tuples": [
-    "/home/chiv/ros2_ws/src/flappy_robot_msgs:msg/FlappyStatus.msg"
+    "/home/lyda/ros2_ws/src/flappy_robot_msgs:msg/FlappyStatus.msg"
   ]
 }

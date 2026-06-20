@@ -3,7 +3,7 @@
   <name>flappy_robot</name>
   <version>0.0.1</version>
   <description>Flappy Robot ROS2 Mini Project</description>
-  <maintainer email="chivinthera@gmail.com">Your Name</maintainer>
+  <maintainer email="sovannlydakiv@gmail.com">Your Name</maintainer>
   <license>Apache-2.0</license>
 
   <depend>rclpy</depend>

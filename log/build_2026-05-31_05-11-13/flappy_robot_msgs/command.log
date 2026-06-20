@@ -1,4 +1,0 @@
-Invoking command in '/home/chiv/ros2_ws/build/flappy_robot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chiv/ros2_ws/install/flappy_robot:/opt/ros/humble /usr/bin/cmake --build /home/chiv/ros2_ws/build/flappy_robot_msgs -- -j2 -l2
-Invoked command in '/home/chiv/ros2_ws/build/flappy_robot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chiv/ros2_ws/install/flappy_robot:/opt/ros/humble /usr/bin/cmake --build /home/chiv/ros2_ws/build/flappy_robot_msgs -- -j2 -l2
-Invoking command in '/home/chiv/ros2_ws/build/flappy_robot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chiv/ros2_ws/install/flappy_robot:/opt/ros/humble /usr/bin/cmake --install /home/chiv/ros2_ws/build/flappy_robot_msgs
-Invoked command in '/home/chiv/ros2_ws/build/flappy_robot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chiv/ros2_ws/install/flappy_robot:/opt/ros/humble /usr/bin/cmake --install /home/chiv/ros2_ws/build/flappy_robot_msgs

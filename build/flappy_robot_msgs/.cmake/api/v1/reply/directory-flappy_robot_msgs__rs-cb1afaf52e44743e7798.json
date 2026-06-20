@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "flappy_robot_msgs__rs",
+		"source" : "/home/lyda/ros2_ws/build/flappy_robot_msgs/flappy_robot_msgs__rs"
+	}
+}

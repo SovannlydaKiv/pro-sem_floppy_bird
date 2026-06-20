@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-361d5c330f78b8d2d928.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "flappy_robot_msgs__py",
+					"jsonFile" : "directory-flappy_robot_msgs__py-f9c3e63bffc5f63c2ac1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/lyda/ros2_ws/build/flappy_robot_msgs/flappy_robot_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "flappy_robot_msgs__rs",
+					"jsonFile" : "directory-flappy_robot_msgs__rs-cb1afaf52e44743e7798.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/lyda/ros2_ws/build/flappy_robot_msgs/flappy_robot_msgs__rs",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "flappy_robot_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_flappy_robot_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_flappy_robot_msgs_egg-7955786f35b3329efdf2.json",
+					"name" : "ament_cmake_python_build_flappy_robot_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_flappy_robot_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_flappy_robot_msgs-fcfa2bb2bcb45d583302.json",
+					"name" : "ament_cmake_python_copy_flappy_robot_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "flappy_robot_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-flappy_robot_msgs-188231ff25ee406612b8.json",
+					"name" : "flappy_robot_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "flappy_robot_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-flappy_robot_msgs__cpp-19ae08e209dcdd3d9c62.json",
+					"name" : "flappy_robot_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "flappy_robot_msgs__py::@69cab661cb8d440a92ff",
+					"jsonFile" : "target-flappy_robot_msgs__py-9e93599613a83b5cd1fc.json",
+					"name" : "flappy_robot_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "flappy_robot_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-flappy_robot_msgs__rosidl_generator_c-c1e672c8ccf1cb237d3d.json",
+					"name" : "flappy_robot_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "flappy_robot_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-flappy_robot_msgs__rosidl_generator_py-db0ccee251335bebc270.json",
+					"name" : "flappy_robot_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "flappy_robot_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-flappy_robot_msgs__rosidl_typesupport_c-941db62f6dbbfccdb635.json",
+					"name" : "flappy_robot_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "flappy_robot_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-flappy_robot_msgs__rosidl_typesupport_c__pyext-0528ec067aa2e6bd755d.json",
+					"name" : "flappy_robot_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "flappy_robot_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-flappy_robot_msgs__rosidl_typesupport_cpp-56eb23325f39b5482a85.json",
+					"name" : "flappy_robot_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "flappy_robot_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-flappy_robot_msgs__rosidl_typesupport_fastrtps_c-34d8b1be27b9c8dd6c3f.json",
+					"name" : "flappy_robot_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "flappy_robot_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-flappy_robot_msgs__rosidl_typesupport_fastrtps_c__pyext-bb18b942f1dce6c2e126.json",
+					"name" : "flappy_robot_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "flappy_robot_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-flappy_robot_msgs__rosidl_typesupport_fastrtps_cpp-d995146590d04f763a3f.json",
+					"name" : "flappy_robot_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "flappy_robot_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-flappy_robot_msgs__rosidl_typesupport_introspection_c-5973688cfeac54d514f7.json",
+					"name" : "flappy_robot_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "flappy_robot_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-flappy_robot_msgs__rosidl_typesupport_introspection_c__pyext-737ef73240b8ff007318.json",
+					"name" : "flappy_robot_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "flappy_robot_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-flappy_robot_msgs__rosidl_typesupport_introspection_cpp-b04bda294cc2bda701ec.json",
+					"name" : "flappy_robot_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "flappy_robot_msgs__rs::@7d831c42a0ecebf3ca8c",
+					"jsonFile" : "target-flappy_robot_msgs__rs-625894a89e1e1e7920ad.json",
+					"name" : "flappy_robot_msgs__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "flappy_robot_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-flappy_robot_msgs_uninstall-520d509afa87f6695fed.json",
+					"name" : "flappy_robot_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6198457bd98578209cd2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lyda/ros2_ws/build/flappy_robot_msgs",
+		"source" : "/home/lyda/ros2_ws/src/flappy_robot_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

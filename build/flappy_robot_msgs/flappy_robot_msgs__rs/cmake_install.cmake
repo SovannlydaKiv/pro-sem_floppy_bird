@@ -1,8 +1,8 @@
-# Install script for directory: /home/chiv/ros2_ws/build/flappy_robot_msgs/flappy_robot_msgs__rs
+# Install script for directory: /home/lyda/ros2_ws/build/flappy_robot_msgs/flappy_robot_msgs__rs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/chiv/ros2_ws/install/flappy_robot_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/lyda/ros2_ws/install/flappy_robot_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
