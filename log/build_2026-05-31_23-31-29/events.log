@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000961] (-) JobUnselected: {'identifier': 'flappy_robot'}
+[0.001033] (-) JobUnselected: {'identifier': 'flappy_robot_msgs'}
+[0.001060] (-) EventReactorShutdown: {}

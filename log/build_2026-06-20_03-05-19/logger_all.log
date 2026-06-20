@@ -1,0 +1,262 @@
+[0.340s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.341s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x77340244f400>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77340244ef50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77340244ef50>>, mixin_verb=('build',))
+[0.614s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.614s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.614s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.614s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.614s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.614s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.614s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/chiv/ros2_ws'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/flappy_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/flappy_robot) by extension 'ignore'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/flappy_robot) by extension 'ignore_ament_install'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/flappy_robot) by extensions ['colcon_pkg']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/flappy_robot) by extension 'colcon_pkg'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/flappy_robot) by extensions ['colcon_meta']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/flappy_robot) by extension 'colcon_meta'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/flappy_robot) by extensions ['ros']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/flappy_robot) by extension 'ros'
+[0.632s] DEBUG:colcon.colcon_core.package_identification:Package 'src/flappy_robot' with type 'ros.ament_python' and name 'flappy_robot'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/flappy_robot_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/flappy_robot_msgs) by extension 'ignore'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/flappy_robot_msgs) by extension 'ignore_ament_install'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/flappy_robot_msgs) by extensions ['colcon_pkg']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/flappy_robot_msgs) by extension 'colcon_pkg'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/flappy_robot_msgs) by extensions ['colcon_meta']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/flappy_robot_msgs) by extension 'colcon_meta'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/flappy_robot_msgs) by extensions ['ros']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/flappy_robot_msgs) by extension 'ros'
+[0.634s] DEBUG:colcon.colcon_core.package_identification:Package 'src/flappy_robot_msgs' with type 'ros.ament_cmake' and name 'flappy_robot_msgs'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extension 'ignore'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extension 'ignore_ament_install'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extensions ['colcon_pkg']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extension 'colcon_pkg'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extensions ['colcon_meta']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extension 'colcon_meta'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extensions ['ros']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extension 'ros'
+[0.636s] DEBUG:colcon.colcon_core.package_identification:Package 'src/two_wheeled_robot' with type 'ros.ament_cmake' and name 'two_wheeled_robot'
+[0.636s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.636s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.636s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.636s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.636s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.682s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.682s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.688s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 12 installed packages in /home/chiv/turtlebot3_ws/install
+[0.688s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/chiv/ros2_ws/install
+[0.691s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 285 installed packages in /opt/ros/humble
+[0.691s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.743s] Level 5:colcon.colcon_core.verb:set package 'flappy_robot_msgs' build argument 'cmake_args' from command line to 'None'
+[0.743s] Level 5:colcon.colcon_core.verb:set package 'flappy_robot_msgs' build argument 'cmake_target' from command line to 'None'
+[0.743s] Level 5:colcon.colcon_core.verb:set package 'flappy_robot_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.743s] Level 5:colcon.colcon_core.verb:set package 'flappy_robot_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.743s] Level 5:colcon.colcon_core.verb:set package 'flappy_robot_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.743s] Level 5:colcon.colcon_core.verb:set package 'flappy_robot_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.743s] Level 5:colcon.colcon_core.verb:set package 'flappy_robot_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.743s] Level 5:colcon.colcon_core.verb:set package 'flappy_robot_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.743s] Level 5:colcon.colcon_core.verb:set package 'flappy_robot_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.743s] DEBUG:colcon.colcon_core.verb:Building package 'flappy_robot_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chiv/ros2_ws/build/flappy_robot_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chiv/ros2_ws/install/flappy_robot_msgs', 'merge_install': False, 'path': '/home/chiv/ros2_ws/src/flappy_robot_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.744s] Level 5:colcon.colcon_core.verb:set package 'two_wheeled_robot' build argument 'cmake_args' from command line to 'None'
+[0.744s] Level 5:colcon.colcon_core.verb:set package 'two_wheeled_robot' build argument 'cmake_target' from command line to 'None'
+[0.744s] Level 5:colcon.colcon_core.verb:set package 'two_wheeled_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.744s] Level 5:colcon.colcon_core.verb:set package 'two_wheeled_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.744s] Level 5:colcon.colcon_core.verb:set package 'two_wheeled_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.744s] Level 5:colcon.colcon_core.verb:set package 'two_wheeled_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.744s] Level 5:colcon.colcon_core.verb:set package 'two_wheeled_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.744s] Level 5:colcon.colcon_core.verb:set package 'two_wheeled_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.744s] Level 5:colcon.colcon_core.verb:set package 'two_wheeled_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.744s] DEBUG:colcon.colcon_core.verb:Building package 'two_wheeled_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chiv/ros2_ws/build/two_wheeled_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chiv/ros2_ws/install/two_wheeled_robot', 'merge_install': False, 'path': '/home/chiv/ros2_ws/src/two_wheeled_robot', 'symlink_install': False, 'test_result_base': None}
+[0.745s] Level 5:colcon.colcon_core.verb:set package 'flappy_robot' build argument 'cmake_args' from command line to 'None'
+[0.745s] Level 5:colcon.colcon_core.verb:set package 'flappy_robot' build argument 'cmake_target' from command line to 'None'
+[0.745s] Level 5:colcon.colcon_core.verb:set package 'flappy_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.745s] Level 5:colcon.colcon_core.verb:set package 'flappy_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.745s] Level 5:colcon.colcon_core.verb:set package 'flappy_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.745s] Level 5:colcon.colcon_core.verb:set package 'flappy_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.745s] Level 5:colcon.colcon_core.verb:set package 'flappy_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.745s] Level 5:colcon.colcon_core.verb:set package 'flappy_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.745s] Level 5:colcon.colcon_core.verb:set package 'flappy_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.745s] DEBUG:colcon.colcon_core.verb:Building package 'flappy_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chiv/ros2_ws/build/flappy_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chiv/ros2_ws/install/flappy_robot', 'merge_install': False, 'path': '/home/chiv/ros2_ws/src/flappy_robot', 'symlink_install': False, 'test_result_base': None}
+[0.745s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.747s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.747s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chiv/ros2_ws/src/flappy_robot_msgs' with build type 'ament_cmake'
+[0.747s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chiv/ros2_ws/src/flappy_robot_msgs'
+[0.754s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.754s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.754s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.758s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chiv/ros2_ws/src/two_wheeled_robot' with build type 'ament_cmake'
+[0.758s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chiv/ros2_ws/src/two_wheeled_robot'
+[0.758s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.758s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.764s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chiv/ros2_ws/build/flappy_robot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chiv/turtlebot3_ws/install/turtlebot3_teleop:/home/chiv/turtlebot3_ws/install/turtlebot3_example:/home/chiv/ros2_ws/install/flappy_robot:/opt/ros/humble /usr/bin/cmake --build /home/chiv/ros2_ws/build/flappy_robot_msgs -- -j2 -l2
+[0.771s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chiv/ros2_ws/build/two_wheeled_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chiv/turtlebot3_ws/install/turtlebot3_teleop:/home/chiv/turtlebot3_ws/install/turtlebot3_example:/home/chiv/ros2_ws/install/flappy_robot:/opt/ros/humble /usr/bin/cmake --build /home/chiv/ros2_ws/build/two_wheeled_robot -- -j2 -l2
+[0.912s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chiv/ros2_ws/build/two_wheeled_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chiv/turtlebot3_ws/install/turtlebot3_teleop:/home/chiv/turtlebot3_ws/install/turtlebot3_example:/home/chiv/ros2_ws/install/flappy_robot:/opt/ros/humble /usr/bin/cmake --build /home/chiv/ros2_ws/build/two_wheeled_robot -- -j2 -l2
+[0.932s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chiv/ros2_ws/build/two_wheeled_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chiv/turtlebot3_ws/install/turtlebot3_teleop:/home/chiv/turtlebot3_ws/install/turtlebot3_example:/home/chiv/ros2_ws/install/flappy_robot:/opt/ros/humble /usr/bin/cmake --install /home/chiv/ros2_ws/build/two_wheeled_robot
+[0.951s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(two_wheeled_robot)
+[0.951s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chiv/ros2_ws/build/two_wheeled_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chiv/turtlebot3_ws/install/turtlebot3_teleop:/home/chiv/turtlebot3_ws/install/turtlebot3_example:/home/chiv/ros2_ws/install/flappy_robot:/opt/ros/humble /usr/bin/cmake --install /home/chiv/ros2_ws/build/two_wheeled_robot
+[0.960s] Level 1:colcon.colcon_core.environment:checking '/home/chiv/ros2_ws/install/two_wheeled_robot' for CMake module files
+[0.960s] Level 1:colcon.colcon_core.environment:checking '/home/chiv/ros2_ws/install/two_wheeled_robot' for CMake config files
+[0.961s] Level 1:colcon.colcon_core.shell:create_environment_hook('two_wheeled_robot', 'cmake_prefix_path')
+[0.961s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chiv/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/hook/cmake_prefix_path.ps1'
+[0.962s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chiv/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/hook/cmake_prefix_path.dsv'
+[0.963s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chiv/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/hook/cmake_prefix_path.sh'
+[0.964s] Level 1:colcon.colcon_core.environment:checking '/home/chiv/ros2_ws/install/two_wheeled_robot/bin'
+[0.964s] Level 1:colcon.colcon_core.environment:checking '/home/chiv/ros2_ws/install/two_wheeled_robot/lib/pkgconfig/two_wheeled_robot.pc'
+[0.964s] Level 1:colcon.colcon_core.environment:checking '/home/chiv/ros2_ws/install/two_wheeled_robot/lib/python3.10/site-packages'
+[0.964s] Level 1:colcon.colcon_core.environment:checking '/home/chiv/ros2_ws/install/two_wheeled_robot/bin'
+[0.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/chiv/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/package.ps1'
+[0.965s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chiv/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/package.dsv'
+[0.966s] INFO:colcon.colcon_core.shell:Creating package script '/home/chiv/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/package.sh'
+[0.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/chiv/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/package.bash'
+[0.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/chiv/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/package.zsh'
+[0.972s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chiv/ros2_ws/install/two_wheeled_robot/share/colcon-core/packages/two_wheeled_robot)
+[0.974s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(two_wheeled_robot)
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/chiv/ros2_ws/install/two_wheeled_robot' for CMake module files
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/chiv/ros2_ws/install/two_wheeled_robot' for CMake config files
+[0.975s] Level 1:colcon.colcon_core.shell:create_environment_hook('two_wheeled_robot', 'cmake_prefix_path')
+[0.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chiv/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/hook/cmake_prefix_path.ps1'
+[0.976s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chiv/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/hook/cmake_prefix_path.dsv'
+[0.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chiv/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/hook/cmake_prefix_path.sh'
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/home/chiv/ros2_ws/install/two_wheeled_robot/bin'
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/home/chiv/ros2_ws/install/two_wheeled_robot/lib/pkgconfig/two_wheeled_robot.pc'
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/home/chiv/ros2_ws/install/two_wheeled_robot/lib/python3.10/site-packages'
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/home/chiv/ros2_ws/install/two_wheeled_robot/bin'
+[0.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/chiv/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/package.ps1'
+[0.978s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chiv/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/package.dsv'
+[0.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/chiv/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/package.sh'
+[0.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/chiv/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/package.bash'
+[0.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/chiv/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/package.zsh'
+[0.979s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chiv/ros2_ws/install/two_wheeled_robot/share/colcon-core/packages/two_wheeled_robot)
+[2.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chiv/ros2_ws/build/flappy_robot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chiv/turtlebot3_ws/install/turtlebot3_teleop:/home/chiv/turtlebot3_ws/install/turtlebot3_example:/home/chiv/ros2_ws/install/flappy_robot:/opt/ros/humble /usr/bin/cmake --build /home/chiv/ros2_ws/build/flappy_robot_msgs -- -j2 -l2
+[2.335s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chiv/ros2_ws/build/flappy_robot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chiv/turtlebot3_ws/install/turtlebot3_teleop:/home/chiv/turtlebot3_ws/install/turtlebot3_example:/home/chiv/ros2_ws/install/flappy_robot:/opt/ros/humble /usr/bin/cmake --install /home/chiv/ros2_ws/build/flappy_robot_msgs
+[2.397s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(flappy_robot_msgs)
+[2.397s] Level 1:colcon.colcon_core.environment:checking '/home/chiv/ros2_ws/install/flappy_robot_msgs' for CMake module files
+[2.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chiv/ros2_ws/build/flappy_robot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chiv/turtlebot3_ws/install/turtlebot3_teleop:/home/chiv/turtlebot3_ws/install/turtlebot3_example:/home/chiv/ros2_ws/install/flappy_robot:/opt/ros/humble /usr/bin/cmake --install /home/chiv/ros2_ws/build/flappy_robot_msgs
+[2.398s] Level 1:colcon.colcon_core.environment:checking '/home/chiv/ros2_ws/install/flappy_robot_msgs' for CMake config files
+[2.398s] Level 1:colcon.colcon_core.shell:create_environment_hook('flappy_robot_msgs', 'cmake_prefix_path')
+[2.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/hook/cmake_prefix_path.ps1'
+[2.398s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/hook/cmake_prefix_path.dsv'
+[2.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/hook/cmake_prefix_path.sh'
+[2.399s] Level 1:colcon.colcon_core.environment:checking '/home/chiv/ros2_ws/install/flappy_robot_msgs/lib'
+[2.399s] Level 1:colcon.colcon_core.shell:create_environment_hook('flappy_robot_msgs', 'ld_library_path_lib')
+[2.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/hook/ld_library_path_lib.ps1'
+[2.399s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/hook/ld_library_path_lib.dsv'
+[2.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/hook/ld_library_path_lib.sh'
+[2.400s] Level 1:colcon.colcon_core.environment:checking '/home/chiv/ros2_ws/install/flappy_robot_msgs/bin'
+[2.400s] Level 1:colcon.colcon_core.environment:checking '/home/chiv/ros2_ws/install/flappy_robot_msgs/lib/pkgconfig/flappy_robot_msgs.pc'
+[2.400s] Level 1:colcon.colcon_core.environment:checking '/home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.10/site-packages'
+[2.400s] Level 1:colcon.colcon_core.environment:checking '/home/chiv/ros2_ws/install/flappy_robot_msgs/bin'
+[2.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/package.ps1'
+[2.401s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/package.dsv'
+[2.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/package.sh'
+[2.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/package.bash'
+[2.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/package.zsh'
+[2.402s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chiv/ros2_ws/install/flappy_robot_msgs/share/colcon-core/packages/flappy_robot_msgs)
+[2.402s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(flappy_robot_msgs)
+[2.402s] Level 1:colcon.colcon_core.environment:checking '/home/chiv/ros2_ws/install/flappy_robot_msgs' for CMake module files
+[2.403s] Level 1:colcon.colcon_core.environment:checking '/home/chiv/ros2_ws/install/flappy_robot_msgs' for CMake config files
+[2.403s] Level 1:colcon.colcon_core.shell:create_environment_hook('flappy_robot_msgs', 'cmake_prefix_path')
+[2.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/hook/cmake_prefix_path.ps1'
+[2.403s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/hook/cmake_prefix_path.dsv'
+[2.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/hook/cmake_prefix_path.sh'
+[2.404s] Level 1:colcon.colcon_core.environment:checking '/home/chiv/ros2_ws/install/flappy_robot_msgs/lib'
+[2.404s] Level 1:colcon.colcon_core.shell:create_environment_hook('flappy_robot_msgs', 'ld_library_path_lib')
+[2.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/hook/ld_library_path_lib.ps1'
+[2.405s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/hook/ld_library_path_lib.dsv'
+[2.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/hook/ld_library_path_lib.sh'
+[2.405s] Level 1:colcon.colcon_core.environment:checking '/home/chiv/ros2_ws/install/flappy_robot_msgs/bin'
+[2.406s] Level 1:colcon.colcon_core.environment:checking '/home/chiv/ros2_ws/install/flappy_robot_msgs/lib/pkgconfig/flappy_robot_msgs.pc'
+[2.406s] Level 1:colcon.colcon_core.environment:checking '/home/chiv/ros2_ws/install/flappy_robot_msgs/lib/python3.10/site-packages'
+[2.406s] Level 1:colcon.colcon_core.environment:checking '/home/chiv/ros2_ws/install/flappy_robot_msgs/bin'
+[2.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/package.ps1'
+[2.407s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/package.dsv'
+[2.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/package.sh'
+[2.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/package.bash'
+[2.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/chiv/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/package.zsh'
+[2.408s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chiv/ros2_ws/install/flappy_robot_msgs/share/colcon-core/packages/flappy_robot_msgs)
+[2.409s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/chiv/ros2_ws/src/flappy_robot' with build type 'ament_python'
+[2.409s] Level 1:colcon.colcon_core.shell:create_environment_hook('flappy_robot', 'ament_prefix_path')
+[2.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chiv/ros2_ws/install/flappy_robot/share/flappy_robot/hook/ament_prefix_path.ps1'
+[2.409s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chiv/ros2_ws/install/flappy_robot/share/flappy_robot/hook/ament_prefix_path.dsv'
+[2.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chiv/ros2_ws/install/flappy_robot/share/flappy_robot/hook/ament_prefix_path.sh'
+[2.410s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.410s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.577s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/chiv/ros2_ws/src/flappy_robot'
+[2.577s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.577s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chiv/ros2_ws/src/flappy_robot': CMAKE_PREFIX_PATH=/home/chiv/ros2_ws/install/flappy_robot_msgs:/home/chiv/turtlebot3_ws/install/turtlebot3:/home/chiv/turtlebot3_ws/install/turtlebot3_bringup:/home/chiv/turtlebot3_ws/install/turtlebot3_node:/home/chiv/turtlebot3_ws/install/turtlebot3_navigation2:/home/chiv/turtlebot3_ws/install/turtlebot3_msgs:/home/chiv/turtlebot3_ws/install/turtlebot3_description:/home/chiv/turtlebot3_ws/install/turtlebot3_cartographer:/home/chiv/turtlebot3_ws/install/dynamixel_sdk_examples:/home/chiv/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/chiv/turtlebot3_ws/install/dynamixel_sdk:/home/chiv/ros2_ws/install/two_wheeled_robot LD_LIBRARY_PATH=/home/chiv/ros2_ws/install/flappy_robot_msgs/lib:/home/chiv/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/chiv/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/chiv/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/chiv/ros2_ws/build/flappy_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chiv/ros2_ws/install/flappy_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/flappy_robot build --build-base /home/chiv/ros2_ws/build/flappy_robot/build install --record /home/chiv/ros2_ws/build/flappy_robot/install.log --single-version-externally-managed install_data
+[3.012s] Level 1:colcon.colcon_core.environment:checking '/home/chiv/ros2_ws/install/flappy_robot' for CMake module files
+[3.012s] Level 1:colcon.colcon_core.environment:checking '/home/chiv/ros2_ws/install/flappy_robot' for CMake config files
+[3.012s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chiv/ros2_ws/src/flappy_robot' returned '0': CMAKE_PREFIX_PATH=/home/chiv/ros2_ws/install/flappy_robot_msgs:/home/chiv/turtlebot3_ws/install/turtlebot3:/home/chiv/turtlebot3_ws/install/turtlebot3_bringup:/home/chiv/turtlebot3_ws/install/turtlebot3_node:/home/chiv/turtlebot3_ws/install/turtlebot3_navigation2:/home/chiv/turtlebot3_ws/install/turtlebot3_msgs:/home/chiv/turtlebot3_ws/install/turtlebot3_description:/home/chiv/turtlebot3_ws/install/turtlebot3_cartographer:/home/chiv/turtlebot3_ws/install/dynamixel_sdk_examples:/home/chiv/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/chiv/turtlebot3_ws/install/dynamixel_sdk:/home/chiv/ros2_ws/install/two_wheeled_robot LD_LIBRARY_PATH=/home/chiv/ros2_ws/install/flappy_robot_msgs/lib:/home/chiv/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/chiv/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/chiv/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/chiv/ros2_ws/build/flappy_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chiv/ros2_ws/install/flappy_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/flappy_robot build --build-base /home/chiv/ros2_ws/build/flappy_robot/build install --record /home/chiv/ros2_ws/build/flappy_robot/install.log --single-version-externally-managed install_data
+[3.015s] Level 1:colcon.colcon_core.environment:checking '/home/chiv/ros2_ws/install/flappy_robot/lib'
+[3.015s] Level 1:colcon.colcon_core.environment:checking '/home/chiv/ros2_ws/install/flappy_robot/bin'
+[3.015s] Level 1:colcon.colcon_core.environment:checking '/home/chiv/ros2_ws/install/flappy_robot/lib/pkgconfig/flappy_robot.pc'
+[3.015s] Level 1:colcon.colcon_core.environment:checking '/home/chiv/ros2_ws/install/flappy_robot/lib/python3.10/site-packages'
+[3.015s] Level 1:colcon.colcon_core.shell:create_environment_hook('flappy_robot', 'pythonpath')
+[3.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chiv/ros2_ws/install/flappy_robot/share/flappy_robot/hook/pythonpath.ps1'
+[3.016s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chiv/ros2_ws/install/flappy_robot/share/flappy_robot/hook/pythonpath.dsv'
+[3.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chiv/ros2_ws/install/flappy_robot/share/flappy_robot/hook/pythonpath.sh'
+[3.016s] Level 1:colcon.colcon_core.environment:checking '/home/chiv/ros2_ws/install/flappy_robot/bin'
+[3.016s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(flappy_robot)
+[3.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/chiv/ros2_ws/install/flappy_robot/share/flappy_robot/package.ps1'
+[3.017s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chiv/ros2_ws/install/flappy_robot/share/flappy_robot/package.dsv'
+[3.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/chiv/ros2_ws/install/flappy_robot/share/flappy_robot/package.sh'
+[3.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/chiv/ros2_ws/install/flappy_robot/share/flappy_robot/package.bash'
+[3.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/chiv/ros2_ws/install/flappy_robot/share/flappy_robot/package.zsh'
+[3.018s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chiv/ros2_ws/install/flappy_robot/share/colcon-core/packages/flappy_robot)
+[3.018s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.018s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.018s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.018s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.025s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.025s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.025s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.035s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.036s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chiv/ros2_ws/install/local_setup.ps1'
+[3.037s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chiv/ros2_ws/install/_local_setup_util_ps1.py'
+[3.039s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chiv/ros2_ws/install/setup.ps1'
+[3.041s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chiv/ros2_ws/install/local_setup.sh'
+[3.041s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chiv/ros2_ws/install/_local_setup_util_sh.py'
+[3.042s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chiv/ros2_ws/install/setup.sh'
+[3.043s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chiv/ros2_ws/install/local_setup.bash'
+[3.044s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chiv/ros2_ws/install/setup.bash'
+[3.045s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chiv/ros2_ws/install/local_setup.zsh'
+[3.045s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chiv/ros2_ws/install/setup.zsh'

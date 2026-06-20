@@ -1,4 +1,3 @@
-README.md
 package.xml
 setup.cfg
 setup.py
@@ -15,7 +14,6 @@ flappy_robot/game_window.py
 flappy_robot/keyboard_controller.py
 flappy_robot/visualization.py
 launch/flappy.launch.py
-msg/FlappyStatus.msg
 resource/flappy_robot
 test/test_copyright.py
 test/test_flake8.py

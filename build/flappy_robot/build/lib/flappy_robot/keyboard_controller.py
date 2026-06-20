@@ -1,9 +1,7 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
-import sys
-import termios
-import tty
+import sys, termios, tty
 
 class KeyboardController(Node):
     def __init__(self):
@@ -29,13 +27,11 @@ class KeyboardController(Node):
             if key == ' ':
                 msg.data = 'flap'
                 self.pub.publish(msg)
-                self.get_logger().info("FLAP!")
             elif key == '\x1b':
                 next2 = sys.stdin.read(2)
                 if next2 == '[A':
                     msg.data = 'flap'
                     self.pub.publish(msg)
-                    self.get_logger().info("FLAP!")
             elif key == '\x03':
                 break
 
@@ -43,7 +39,3 @@ def main(args=None):
     rclpy.init(args=args)
     node = KeyboardController()
     rclpy.shutdown()
-
-if __name__ == '__main__':
-    main()
-

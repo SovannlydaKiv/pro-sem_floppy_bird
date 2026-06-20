@@ -11,7 +11,6 @@
 /home/chiv/ros2_ws/install/flappy_robot/share/ament_index/resource_index/packages/flappy_robot
 /home/chiv/ros2_ws/install/flappy_robot/share/flappy_robot/package.xml
 /home/chiv/ros2_ws/install/flappy_robot/share/flappy_robot/launch/flappy.launch.py
-/home/chiv/ros2_ws/install/flappy_robot/share/flappy_robot/msg/FlappyStatus.msg
 /home/chiv/ros2_ws/install/flappy_robot/lib/python3.10/site-packages/flappy_robot-0.0.1-py3.10.egg-info/PKG-INFO
 /home/chiv/ros2_ws/install/flappy_robot/lib/python3.10/site-packages/flappy_robot-0.0.1-py3.10.egg-info/entry_points.txt
 /home/chiv/ros2_ws/install/flappy_robot/lib/python3.10/site-packages/flappy_robot-0.0.1-py3.10.egg-info/requires.txt

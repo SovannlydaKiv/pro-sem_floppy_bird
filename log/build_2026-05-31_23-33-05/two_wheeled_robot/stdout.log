@@ -1,0 +1,44 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/chiv/ros2_ws/build/two_wheeled_robot
+-- Install configuration: ""
+-- Installing: /home/chiv/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/launch
+-- Installing: /home/chiv/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/launch/load_world_into_gazebo.launch.py
+-- Installing: /home/chiv/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/launch/two_wheeled_robot.launch.py
+-- Installing: /home/chiv/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes
+-- Installing: /home/chiv/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/robot_base.stl
+-- Installing: /home/chiv/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/rviz
+-- Installing: /home/chiv/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/rviz/rviz_basic_settings.rviz
+-- Installing: /home/chiv/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/urdf
+-- Installing: /home/chiv/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/urdf/two_wheeled_robot.urdf
+-- Installing: /home/chiv/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/worlds
+-- Installing: /home/chiv/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/worlds/cafe.world
+-- Installing: /home/chiv/ros2_ws/install/two_wheeled_robot/share/ament_index/resource_index/package_run_dependencies/two_wheeled_robot
+-- Installing: /home/chiv/ros2_ws/install/two_wheeled_robot/share/ament_index/resource_index/parent_prefix_path/two_wheeled_robot
+-- Installing: /home/chiv/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/environment/ament_prefix_path.sh
+-- Installing: /home/chiv/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/environment/ament_prefix_path.dsv
+-- Installing: /home/chiv/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/environment/path.sh
+-- Installing: /home/chiv/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/environment/path.dsv
+-- Installing: /home/chiv/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/local_setup.bash
+-- Installing: /home/chiv/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/local_setup.sh
+-- Installing: /home/chiv/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/local_setup.zsh
+-- Installing: /home/chiv/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/local_setup.dsv
+-- Installing: /home/chiv/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/package.dsv
+-- Installing: /home/chiv/ros2_ws/install/two_wheeled_robot/share/ament_index/resource_index/packages/two_wheeled_robot
+-- Installing: /home/chiv/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/cmake/two_wheeled_robotConfig.cmake
+-- Installing: /home/chiv/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/cmake/two_wheeled_robotConfig-version.cmake
+-- Installing: /home/chiv/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/package.xml
