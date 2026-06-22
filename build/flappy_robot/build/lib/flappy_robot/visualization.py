@@ -53,7 +53,7 @@ class Visualization(Node):
         bird.pose.orientation.x = 0.0
         bird.pose.orientation.y = 0.0
         bird.pose.orientation.z = 0.2588   # sin(15 deg)
-        bird.pose.orientation.w = 0.9659   # cos(15 deg)
+        bird.pose.orientation.w = 0.9659   #cos(15 deg)
 
         bird.scale.x = 0.05
         bird.scale.y = 0.05
