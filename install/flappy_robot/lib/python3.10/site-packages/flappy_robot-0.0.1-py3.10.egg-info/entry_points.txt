@@ -1,6 +1,0 @@
-[console_scripts]
-game_logic = flappy_robot.game_logic:main
-game_window = flappy_robot.game_window:main
-keyboard_controller = flappy_robot.keyboard_controller:main
-visualization = flappy_robot.visualization:main
-
