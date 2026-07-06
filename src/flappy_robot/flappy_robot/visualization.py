@@ -1,7 +1,10 @@
+import math
 import rclpy
 from rclpy.node import Node
 from visualization_msgs.msg import Marker, MarkerArray
 from flappy_robot_msgs.msg import FlappyStatus
+from ament_index_python.packages import get_package_share_directory
+import os
 
 class Visualization(Node):
     def __init__(self):
@@ -33,7 +36,34 @@ class Visualization(Node):
     def status_cb(self, msg):
         markers = MarkerArray()
         robot_z = msg.vertical_velocity * 0.1 + 5.0
-        markers.markers.append(self.make_marker("robot", 0, Marker.CUBE, 0, robot_z, 0.5, 0.5, 0.5, 0.0, 1.0, 0.0))
+
+        # 3D bird mesh marker
+        bird = Marker()
+        bird.header.frame_id = "map"
+        bird.header.stamp = self.get_clock().now().to_msg()
+        bird.ns = "robot"
+        bird.id = 0
+        bird.type = Marker.MESH_RESOURCE
+        bird.action = Marker.ADD
+        bird.pose.position.x = 0.0
+        bird.pose.position.y = 0.0
+        bird.pose.position.z = float(robot_z)
+
+        # TRY 4: Small 30 degree turn around Z axis only (no X/Y tilt)
+        bird.pose.orientation.x = math.sin(-1.57/2)
+        bird.pose.orientation.y = 0.0
+        bird.pose.orientation.z = 0.2588   # sin(15 deg)
+        bird.pose.orientation.w = math.cos(-1.57/2)   #cos(15 deg)
+
+        bird.scale.x = 0.05
+        bird.scale.y = 0.05
+        bird.scale.z = 0.05
+        pkg_path = get_package_share_directory('flappy_robot')
+        bird.mesh_resource = f"file://{pkg_path}/meshes/bird.dae"
+        bird.mesh_use_embedded_materials = True
+        bird.color.a = 1.0
+        markers.markers.append(bird)
+
         for i, px in enumerate(msg.pipe_positions):
             markers.markers.append(self.make_marker("pipes", i+1, Marker.CYLINDER, px, 2.5, 0.4, 0.4, 5.0, 0.2, 0.6, 1.0))
         markers.markers.append(self.make_marker("ground", 100, Marker.CUBE, 0, -0.25, 50.0, 5.0, 0.5, 0.6, 0.4, 0.1))
