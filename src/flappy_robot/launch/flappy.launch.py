@@ -2,6 +2,7 @@ from launch import LaunchDescription
 from launch_ros.actions import Node
 from launch.actions import ExecuteProcess
 
+
 def generate_launch_description():
     return LaunchDescription([
         Node(
@@ -20,6 +21,14 @@ def generate_launch_description():
             package='flappy_robot',
             executable='visualization',
             name='viz_node',
+            output='screen'
+        ),
+        ExecuteProcess(
+            cmd=[
+                'gnome-terminal', '--',
+                'bash', '-c',
+                'ros2 run flappy_robot keyboard_controller; exec bash'
+            ],
             output='screen'
         ),
         ExecuteProcess(
