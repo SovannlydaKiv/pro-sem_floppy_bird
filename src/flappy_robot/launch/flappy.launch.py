@@ -6,6 +6,12 @@ def generate_launch_description():
     return LaunchDescription([
         Node(
             package='flappy_robot',
+            executable='game_logic',
+            name='game_logic',
+            output='screen'
+        ),
+        Node(
+            package='flappy_robot',
             executable='game_window',
             name='game_window',
             output='screen'

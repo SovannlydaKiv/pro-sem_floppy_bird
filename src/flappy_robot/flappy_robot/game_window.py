@@ -1,117 +1,79 @@
 import rclpy
 from rclpy.node import Node
 from flappy_robot_msgs.msg import FlappyStatus
-import pygame, sys, random
+from std_msgs.msg import String
+import pygame, sys
 from ament_index_python.packages import get_package_share_directory
 import os
+
 
 class FlappyGameWindow(Node):
     def __init__(self):
         super().__init__('flappy_game_window')
-        self.pub = self.create_publisher(FlappyStatus, '/flappy_status', 10)
+
+        # rendering-only constants (game_logic owns the simulation values)
         self.WIDTH = 800
         self.HEIGHT = 600
         self.FPS = 30
-        self.GRAVITY = 0.5
-        self.FLAP_FORCE = -10
-        self.PIPE_SPEED = 4
         self.PIPE_GAP = 180
         self.PIPE_WIDTH = 70
-        self.reset_game()
+
+        self.pub = self.create_publisher(String, '/flappy_input', 10)
+        self.sub = self.create_subscription(FlappyStatus, '/flappy_status', self.status_cb, 10)
+
+        self.latest = None  # most recent FlappyStatus received
         self.bird_img = None
-        self.timer = self.create_timer(0.033, self.publish_status)
 
-    def reset_game(self):
-        self.robot_x = 150
-        self.robot_y = self.HEIGHT // 2
-        self.robot_vel = 0
-        self.score = 0
-        self.game_over = False
-        self.game_over_reason = ""
-        self.started = False
-        self.pipes = []
-        self.spawn_pipe()
-        self.spawn_pipe()
+    def status_cb(self, msg):
+        self.latest = msg
 
-    def spawn_pipe(self):
-        x = self.pipes[-1]['x'] + 280 if self.pipes else self.WIDTH + 100
-        gap_y = random.randint(150, self.HEIGHT - 150)
-        self.pipes.append({'x': x, 'gap_y': gap_y, 'scored': False})
-
-    def flap(self):
-        if self.game_over:
-            self.reset_game()
-        else:
-            self.started = True
-            self.robot_vel = self.FLAP_FORCE
-
-    def update(self):
-        if not self.started or self.game_over:
-            return
-        self.robot_vel += self.GRAVITY
-        self.robot_y += self.robot_vel
-        for pipe in self.pipes:
-            pipe['x'] -= self.PIPE_SPEED
-        for pipe in self.pipes:
-            if not pipe['scored'] and pipe['x'] + self.PIPE_WIDTH < self.robot_x:
-                pipe['scored'] = True
-                self.score += 1
-        self.pipes = [p for p in self.pipes if p['x'] > -self.PIPE_WIDTH]
-        while len(self.pipes) < 3:
-            self.spawn_pipe()
-        if self.robot_y <= 0:
-            self.game_over = True
-            self.game_over_reason = "Flew too high"
-        elif self.robot_y >= self.HEIGHT - 30:
-            self.game_over = True
-            self.game_over_reason = "Hit the ground"
-        for pipe in self.pipes:
-            if (self.robot_x + 30 > pipe['x'] and self.robot_x < pipe['x'] + self.PIPE_WIDTH):
-                if (self.robot_y < pipe['gap_y'] - self.PIPE_GAP//2 or
-                        self.robot_y + 30 > pipe['gap_y'] + self.PIPE_GAP//2):
-                    self.game_over = True
-                    self.game_over_reason = "Hit a pipe"
+    def send_flap(self):
+        msg = String()
+        msg.data = 'flap'
+        self.pub.publish(msg)
 
     def draw(self, screen, font, big_font):
         screen.fill((135, 206, 235))
-        pygame.draw.rect(screen, (101, 67, 33), (0, self.HEIGHT-30, self.WIDTH, 30))
-        pygame.draw.rect(screen, (34, 139, 34), (0, self.HEIGHT-35, self.WIDTH, 10))
-        for pipe in self.pipes:
-            gap_y = pipe['gap_y']
-            top_h = gap_y - self.PIPE_GAP//2
-            bot_y = gap_y + self.PIPE_GAP//2
-            bot_h = self.HEIGHT - 30 - bot_y
-            pygame.draw.rect(screen, (34, 139, 34), (pipe['x'], 0, self.PIPE_WIDTH, top_h))
-            pygame.draw.rect(screen, (0, 100, 0), (pipe['x']-5, top_h-20, self.PIPE_WIDTH+10, 20))
-            pygame.draw.rect(screen, (34, 139, 34), (pipe['x'], bot_y, self.PIPE_WIDTH, bot_h))
-            pygame.draw.rect(screen, (0, 100, 0), (pipe['x']-5, bot_y, self.PIPE_WIDTH+10, 20))
-        if self.bird_img:
-            angle = max(-45, min(45, -self.robot_vel * 3))
-            rotated = pygame.transform.rotate(self.bird_img, angle)
-            screen.blit(rotated, (self.robot_x, int(self.robot_y)))
-        else:
-            pygame.draw.rect(screen, (255, 200, 0), (self.robot_x, int(self.robot_y), 35, 35))
-        screen.blit(font.render(f"Score: {self.score}", True, (255,255,255)), (10, 10))
-        screen.blit(font.render("ROS2 Flappy Robot", True, (255,255,255)), (self.WIDTH-200, 10))
-        if not self.started and not self.game_over:
-            msg = big_font.render("Press SPACE to Start!", True, (255,255,0))
-            screen.blit(msg, (self.WIDTH//2 - msg.get_width()//2, self.HEIGHT//2 - 50))
-        if self.game_over:
-            for txt, col, dy in [("GAME OVER!", (255,0,0), -80),
-                                  (self.game_over_reason, (255,255,255), -20),
-                                  (f"Final Score: {self.score}", (255,255,0), 20),
-                                  ("Press SPACE to Restart", (255,255,255), 60)]:
-                s = (big_font if dy==-80 else font).render(txt, True, col)
-                screen.blit(s, (self.WIDTH//2 - s.get_width()//2, self.HEIGHT//2 + dy))
+        pygame.draw.rect(screen, (101, 67, 33), (0, self.HEIGHT - 30, self.WIDTH, 30))
+        pygame.draw.rect(screen, (34, 139, 34), (0, self.HEIGHT - 35, self.WIDTH, 10))
 
-    def publish_status(self):
-        msg = FlappyStatus()
-        msg.vertical_velocity = float(self.robot_vel)
-        msg.horizontal_speed = float(self.PIPE_SPEED)
-        msg.score = int(self.score)
-        msg.pipe_positions = [float(p['x']) for p in self.pipes]
-        msg.game_over_reason = self.game_over_reason
-        self.pub.publish(msg)
+        if self.latest is None:
+            msg = font.render("Waiting for game_logic node...", True, (255, 255, 255))
+            screen.blit(msg, (self.WIDTH // 2 - msg.get_width() // 2, self.HEIGHT // 2))
+            return
+
+        status = self.latest
+        for x, gap_y in zip(status.pipe_positions, status.pipe_gap_y):
+            top_h = gap_y - self.PIPE_GAP // 2
+            bot_y = gap_y + self.PIPE_GAP // 2
+            bot_h = self.HEIGHT - 30 - bot_y
+            pygame.draw.rect(screen, (34, 139, 34), (x, 0, self.PIPE_WIDTH, top_h))
+            pygame.draw.rect(screen, (0, 100, 0), (x - 5, top_h - 20, self.PIPE_WIDTH + 10, 20))
+            pygame.draw.rect(screen, (34, 139, 34), (x, bot_y, self.PIPE_WIDTH, bot_h))
+            pygame.draw.rect(screen, (0, 100, 0), (x - 5, bot_y, self.PIPE_WIDTH + 10, 20))
+
+        robot_x = 150
+        if self.bird_img:
+            angle = max(-45, min(45, -status.vertical_velocity * 3))
+            rotated = pygame.transform.rotate(self.bird_img, angle)
+            screen.blit(rotated, (robot_x, int(status.robot_y)))
+        else:
+            pygame.draw.rect(screen, (255, 200, 0), (robot_x, int(status.robot_y), 35, 35))
+
+        screen.blit(font.render(f"Score: {status.score}", True, (255, 255, 255)), (10, 10))
+        screen.blit(font.render("ROS2 Flappy Robot", True, (255, 255, 255)), (self.WIDTH - 200, 10))
+
+        if not status.started and not status.game_over_reason:
+            msg = big_font.render("Press SPACE to Start!", True, (255, 255, 0))
+            screen.blit(msg, (self.WIDTH // 2 - msg.get_width() // 2, self.HEIGHT // 2 - 50))
+
+        if status.game_over_reason:
+            for txt, col, dy in [("GAME OVER!", (255, 0, 0), -80),
+                                  (status.game_over_reason, (255, 255, 255), -20),
+                                  (f"Final Score: {status.score}", (255, 255, 0), 20),
+                                  ("Press SPACE to Restart", (255, 255, 255), 60)]:
+                s = (big_font if dy == -80 else font).render(txt, True, col)
+                screen.blit(s, (self.WIDTH // 2 - s.get_width() // 2, self.HEIGHT // 2 + dy))
 
     def run_game(self):
         pygame.init()
@@ -123,6 +85,7 @@ class FlappyGameWindow(Node):
         clock = pygame.time.Clock()
         font = pygame.font.SysFont('Arial', 24)
         big_font = pygame.font.SysFont('Arial', 48, bold=True)
+
         while rclpy.ok():
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
@@ -131,18 +94,25 @@ class FlappyGameWindow(Node):
                     sys.exit()
                 if event.type == pygame.KEYDOWN:
                     if event.key in (pygame.K_SPACE, pygame.K_UP):
-                        self.flap()
-            self.update()
+                        self.send_flap()
+
+            # Block until game_logic's next physics tick arrives instead of
+            # free-running our own clock — this makes game_logic's 30Hz timer
+            # the single source of truth, so we render exactly once per tick
+            # with no drift and no backlog/catch-up jumps.
+            rclpy.spin_once(self, timeout_sec=1.0)
+
             self.draw(screen, font, big_font)
             pygame.display.flip()
-            clock.tick(self.FPS)
-            rclpy.spin_once(self, timeout_sec=0)
+            clock.tick(self.FPS)  # safety cap only, no longer paces movement
+
 
 def main(args=None):
     rclpy.init(args=args)
     node = FlappyGameWindow()
     node.run_game()
     rclpy.shutdown()
+
 
 if __name__ == '__main__':
     main()
