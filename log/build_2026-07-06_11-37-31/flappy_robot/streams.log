@@ -1,0 +1,30 @@
+[0.281s] Invoking command in '/home/lyda/ros2_ws/src/flappy_robot': CMAKE_PREFIX_PATH=/home/lyda/ros2_ws/install/flappy_robot_msgs:/home/lyda/ros2_ws/install/two_wheeled_robot:/home/lyda/dev_ws/install/two_wheeled_robot:/home/lyda/dev_ws/install/my_package_cpp PYTHONPATH=/home/lyda/ros2_ws/build/flappy_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lyda/ros2_ws/install/flappy_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/flappy_robot build --build-base /home/lyda/ros2_ws/build/flappy_robot/build install --record /home/lyda/ros2_ws/build/flappy_robot/install.log --install-scripts $base/lib/flappy_robot --single-version-externally-managed install_data
+[0.392s] running egg_info
+[0.393s] writing ../../build/flappy_robot/flappy_robot.egg-info/PKG-INFO
+[0.393s] writing dependency_links to ../../build/flappy_robot/flappy_robot.egg-info/dependency_links.txt
+[0.393s] writing entry points to ../../build/flappy_robot/flappy_robot.egg-info/entry_points.txt
+[0.393s] writing requirements to ../../build/flappy_robot/flappy_robot.egg-info/requires.txt
+[0.393s] writing top-level names to ../../build/flappy_robot/flappy_robot.egg-info/top_level.txt
+[0.394s] reading manifest file '../../build/flappy_robot/flappy_robot.egg-info/SOURCES.txt'
+[0.394s] writing manifest file '../../build/flappy_robot/flappy_robot.egg-info/SOURCES.txt'
+[0.395s] running build
+[0.395s] running build_py
+[0.395s] copying flappy_robot/game_window.py -> /home/lyda/ros2_ws/build/flappy_robot/build/lib/flappy_robot
+[0.395s] copying flappy_robot/visualization.py -> /home/lyda/ros2_ws/build/flappy_robot/build/lib/flappy_robot
+[0.395s] running install
+[0.395s] running install_lib
+[0.395s] copying /home/lyda/ros2_ws/build/flappy_robot/build/lib/flappy_robot/keyboard_controller.py -> /home/lyda/ros2_ws/install/flappy_robot/lib/python3.10/site-packages/flappy_robot
+[0.395s] copying /home/lyda/ros2_ws/build/flappy_robot/build/lib/flappy_robot/game_logic.py -> /home/lyda/ros2_ws/install/flappy_robot/lib/python3.10/site-packages/flappy_robot
+[0.396s] byte-compiling /home/lyda/ros2_ws/install/flappy_robot/lib/python3.10/site-packages/flappy_robot/keyboard_controller.py to keyboard_controller.cpython-310.pyc
+[0.396s] byte-compiling /home/lyda/ros2_ws/install/flappy_robot/lib/python3.10/site-packages/flappy_robot/game_logic.py to game_logic.cpython-310.pyc
+[0.397s] running install_data
+[0.397s] running install_egg_info
+[0.398s] removing '/home/lyda/ros2_ws/install/flappy_robot/lib/python3.10/site-packages/flappy_robot-0.0.1-py3.10.egg-info' (and everything under it)
+[0.398s] Copying ../../build/flappy_robot/flappy_robot.egg-info to /home/lyda/ros2_ws/install/flappy_robot/lib/python3.10/site-packages/flappy_robot-0.0.1-py3.10.egg-info
+[0.398s] running install_scripts
+[0.409s] Installing game_logic script to /home/lyda/ros2_ws/install/flappy_robot/lib/flappy_robot
+[0.409s] Installing game_window script to /home/lyda/ros2_ws/install/flappy_robot/lib/flappy_robot
+[0.409s] Installing keyboard_controller script to /home/lyda/ros2_ws/install/flappy_robot/lib/flappy_robot
+[0.409s] Installing visualization script to /home/lyda/ros2_ws/install/flappy_robot/lib/flappy_robot
+[0.410s] writing list of installed files to '/home/lyda/ros2_ws/build/flappy_robot/install.log'
+[0.425s] Invoked command in '/home/lyda/ros2_ws/src/flappy_robot' returned '0': CMAKE_PREFIX_PATH=/home/lyda/ros2_ws/install/flappy_robot_msgs:/home/lyda/ros2_ws/install/two_wheeled_robot:/home/lyda/dev_ws/install/two_wheeled_robot:/home/lyda/dev_ws/install/my_package_cpp PYTHONPATH=/home/lyda/ros2_ws/build/flappy_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lyda/ros2_ws/install/flappy_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/flappy_robot build --build-base /home/lyda/ros2_ws/build/flappy_robot/build install --record /home/lyda/ros2_ws/build/flappy_robot/install.log --install-scripts $base/lib/flappy_robot --single-version-externally-managed install_data

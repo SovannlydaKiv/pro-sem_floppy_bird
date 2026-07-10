@@ -616,6 +616,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/flappy_robot_msgs/cmake" TYPE FILE FILES "/home/lyda/ros2_ws/build/flappy_robot_msgs/rosidl_cmake/rosidl_cmake_aggregate_target-extras.cmake")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/flappy_robot_msgs/cmake" TYPE FILE FILES
     "/home/lyda/ros2_ws/build/flappy_robot_msgs/ament_cmake_core/flappy_robot_msgsConfig.cmake"
     "/home/lyda/ros2_ws/build/flappy_robot_msgs/ament_cmake_core/flappy_robot_msgsConfig-version.cmake"

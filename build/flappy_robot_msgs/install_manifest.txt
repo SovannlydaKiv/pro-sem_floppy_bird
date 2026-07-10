@@ -94,6 +94,7 @@
 /home/lyda/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
 /home/lyda/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
 /home/lyda/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+/home/lyda/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake
 /home/lyda/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/flappy_robot_msgsConfig.cmake
 /home/lyda/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/cmake/flappy_robot_msgsConfig-version.cmake
 /home/lyda/ros2_ws/install/flappy_robot_msgs/share/flappy_robot_msgs/package.xml
